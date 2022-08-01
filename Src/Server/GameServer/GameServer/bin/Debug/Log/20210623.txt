@@ -1,0 +1,92 @@
+
+2021-06-23 16:03:47,946 [1] [INFO ] [GameServer] ：Game Server Init
+2021-06-23 16:03:49,357 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-06-23 16:03:49,534 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 16:03:49,537 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 16:03:49,538 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 16:03:49,542 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 16:03:49,542 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 16:03:49,543 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 16:03:49,543 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 16:03:49,543 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 16:03:49,632 [1] [WARN ] [GameServer] ：NetService Started
+2021-06-23 19:13:53,880 [1] [INFO ] [GameServer] ：Game Server Init
+2021-06-23 19:13:54,856 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-06-23 19:13:54,944 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:13:54,946 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:13:54,946 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:13:54,949 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:13:54,951 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:13:54,952 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:13:54,953 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:13:54,960 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:13:55,000 [1] [WARN ] [GameServer] ：NetService Started
+2021-06-23 19:27:42,254 [1] [INFO ] [GameServer] ：Game Server Init
+2021-06-23 19:27:42,797 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-06-23 19:27:42,888 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:27:42,888 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:27:42,888 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:27:42,889 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:27:42,899 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:27:42,899 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:27:42,901 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:27:42,906 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:27:42,918 [1] [WARN ] [GameServer] ：NetService Started
+2021-06-23 19:29:09,522 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59457]] Connected
+2021-06-23 19:29:09,771 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-06-23 19:29:10,064 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-06-23 19:29:13,163 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-06-23 19:29:13,165 [6] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-06-23 19:29:14,463 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2021-06-23 19:29:15,388 [6] [ERROR] [GameServer] ：Message handler exception:, 已添加了具有相同键的项。, mscorlib,    在 System.ThrowHelper.ThrowArgumentException(ExceptionResource resource)
+   在 System.Collections.Generic.Dictionary`2.Insert(TKey key, TValue value, Boolean add)
+   在 System.Data.Entity.Core.Objects.ObjectStateManager.AddEntityEntryToDictionary(EntityEntry entry, EntityState state)
+   在 System.Data.Entity.Core.Objects.ObjectStateManager.AddEntry(IEntityWrapper wrappedObject, EntityKey passedKey, EntitySet entitySet, String argumentName, Boolean isAdded)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper.HandleEntityAppendOnly[TEntity](Func`2 constructEntityDelegate, EntityKey entityKey, EntitySet entitySet)
+   在 lambda_method(Closure , Shaper )
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   在 System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   在 GameServer.Services.UserService.OnLogin(NetConnection`1 sender, UserLoginRequest request) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 63
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\2021\mmorpg\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-06-23 19:30:04,399 [1] [INFO ] [GameServer] ：Game Server Init
+2021-06-23 19:30:04,973 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-06-23 19:30:05,024 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:30:05,024 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:30:05,024 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:30:05,025 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:30:05,025 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:30:05,025 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:30:05,029 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:30:05,029 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:30:05,136 [1] [WARN ] [GameServer] ：NetService Started
+2021-06-23 19:30:49,089 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56286]] Connected
+2021-06-23 19:30:49,336 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-06-23 19:30:49,583 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-06-23 19:41:08,261 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-06-23 19:50:19,105 [1] [INFO ] [GameServer] ：Game Server Init
+2021-06-23 19:50:19,702 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-06-23 19:50:19,715 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:50:19,721 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:50:19,729 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:50:19,729 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:50:19,729 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:50:19,736 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:50:19,739 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:50:19,742 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:50:19,829 [1] [WARN ] [GameServer] ：NetService Started
+2021-06-23 19:51:23,594 [3] [WARN ] [GameServer] ：Client[127.0.0.1:63486]] Connected
+2021-06-23 19:51:23,831 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-06-23 19:51:24,117 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-06-23 19:55:38,076 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-06-23 19:58:50,340 [1] [INFO ] [GameServer] ：Game Server Init
+2021-06-23 19:58:50,825 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-06-23 19:58:50,884 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:58:50,884 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:58:50,886 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:58:50,887 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:58:50,891 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:58:50,891 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:58:50,892 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:58:50,892 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-06-23 19:58:50,942 [1] [WARN ] [GameServer] ：NetService Started

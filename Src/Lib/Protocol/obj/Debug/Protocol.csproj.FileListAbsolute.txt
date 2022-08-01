@@ -1,0 +1,9 @@
+D:\2021\mmorpg\Src\Lib\Protocol\bin\Debug\Protocol.dll
+D:\2021\mmorpg\Src\Lib\Protocol\bin\Debug\Protocol.pdb
+D:\2021\mmorpg\Src\Lib\Protocol\bin\Debug\protobuf-net.dll
+D:\2021\mmorpg\Src\Lib\Protocol\bin\Debug\protobuf-net.xml
+D:\2021\mmorpg\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CoreCompileInputs.cache
+D:\2021\mmorpg\Src\Lib\Protocol\obj\Debug\Protocol.csproj.CopyComplete
+D:\2021\mmorpg\Src\Lib\Protocol\obj\Debug\Protocol.dll
+D:\2021\mmorpg\Src\Lib\Protocol\obj\Debug\Protocol.pdb
+D:\2021\mmorpg\Src\Lib\Protocol\obj\Debug\Protocol.csproj.AssemblyReference.cache

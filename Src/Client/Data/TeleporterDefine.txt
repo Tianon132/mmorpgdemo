@@ -1,0 +1,138 @@
+{
+  "1": {
+    "ID": 1,
+    "Name": "主城->野外",
+    "MapID": 1,
+    "LinkTo": 6,
+    "Descript": null,
+    "Position": {
+      "X": 663,
+      "Y": 2594,
+      "Z": 1088
+    },
+    "Direction": {
+      "X": 0,
+      "Y": 100,
+      "Z": 0
+    }
+  },
+  "2": {
+    "ID": 2,
+    "Name": "主城->副本",
+    "MapID": 1,
+    "LinkTo": 8,
+    "Descript": null,
+    "Position": {
+      "X": 7639,
+      "Y": 2604,
+      "Z": 1070
+    },
+    "Direction": {
+      "X": 0,
+      "Y": 100,
+      "Z": 0
+    }
+  },
+  "3": {
+    "ID": 3,
+    "Name": "主城传入点1",
+    "MapID": 1,
+    "LinkTo": 0,
+    "Descript": null,
+    "Position": {
+      "X": 1564,
+      "Y": 2524,
+      "Z": 866
+    },
+    "Direction": {
+      "X": 100,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "4": {
+    "ID": 4,
+    "Name": "出城传入点2",
+    "MapID": 1,
+    "LinkTo": 0,
+    "Descript": null,
+    "Position": {
+      "X": 6521,
+      "Y": 2676,
+      "Z": 866
+    },
+    "Direction": {
+      "X": -100,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "5": {
+    "ID": 5,
+    "Name": "野外->主城",
+    "MapID": 2,
+    "LinkTo": 3,
+    "Descript": null,
+    "Position": {
+      "X": 2360,
+      "Y": 4007,
+      "Z": 407
+    },
+    "Direction": {
+      "X": 0,
+      "Y": 100,
+      "Z": 0
+    }
+  },
+  "6": {
+    "ID": 6,
+    "Name": "野外传入点",
+    "MapID": 2,
+    "LinkTo": 0,
+    "Descript": null,
+    "Position": {
+      "X": 2937,
+      "Y": 4017,
+      "Z": 85
+    },
+    "Direction": {
+      "X": 100,
+      "Y": 0,
+      "Z": 0
+    }
+  },
+  "7": {
+    "ID": 7,
+    "Name": "副本->主城",
+    "MapID": 4,
+    "LinkTo": 4,
+    "Descript": null,
+    "Position": {
+      "X": -2154,
+      "Y": 2125,
+      "Z": 302
+    },
+    "Direction": {
+      "X": 71,
+      "Y": 71,
+      "Z": 0
+    }
+  },
+  "8": {
+    "ID": 8,
+    "Name": "副本传入点",
+    "MapID": 4,
+    "LinkTo": 0,
+    "Descript": null,
+    "Position": {
+      "X": -2548,
+      "Y": -3044,
+      "Z": -61
+    },
+    "Direction": {
+      "X": 71,
+      "Y": 71,
+      "Z": 0
+    }
+  }
+}

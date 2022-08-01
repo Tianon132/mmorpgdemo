@@ -1,0 +1,45 @@
+
+2021-12-24 11:30:34,389 [1] [INFO ] [GameServer] ：Game Server Init
+2021-12-24 11:30:35,173 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-12-24 11:30:35,800 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-12-24 11:30:35,808 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-12-24 11:30:35,808 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-12-24 11:30:35,808 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-12-24 11:30:39,919 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-12-24 11:30:39,932 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-12-24 11:30:39,932 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-12-24 11:30:39,933 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-12-24 11:30:39,933 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-12-24 11:30:39,934 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-12-24 11:30:39,934 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-12-24 11:30:39,934 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-12-24 11:30:39,935 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-12-24 11:30:40,042 [1] [WARN ] [GameServer] ：NetService Started
+2021-12-24 11:30:48,033 [3] [WARN ] [GameServer] ：Client[127.0.0.1:56975]] Connected
+2021-12-24 11:30:48,175 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-12-24 11:30:48,433 [6] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-12-24 11:30:54,372 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-12-24 11:30:54,377 [13] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:3:1111 Map:1
+2021-12-24 11:30:54,610 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:1111
+2021-12-24 11:30:54,632 [13] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:3
+2021-12-24 11:30:54,633 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:1111
+2021-12-24 11:31:40,221 [5] [INFO ] [GameServer] ：Map:[2] Spawn[1: Mon:1001,Lv:1] At Point:1
+2021-12-24 11:31:40,224 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:2
+2021-12-24 11:31:40,224 [5] [INFO ] [GameServer] ：Map:[2] Spawn[2: Mon:1002,Lv:1] At Point:2
+2021-12-24 11:31:40,225 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:3
+2021-12-24 11:31:40,226 [5] [INFO ] [GameServer] ：Map:[2] Spawn[3: Mon:1003,Lv:1] At Point:3
+2021-12-24 11:31:40,227 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:4
+2021-12-24 11:31:40,228 [5] [INFO ] [GameServer] ：Map:[2] Spawn[4: Mon:1005,Lv:1] At Point:4
+2021-12-24 11:31:40,230 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:5
+2021-12-24 11:31:40,232 [5] [INFO ] [GameServer] ：Map:[3] Spawn[1: Mon:1001,Lv:1] At Point:1
+2021-12-24 11:31:40,233 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:6
+2021-12-24 11:31:40,239 [5] [INFO ] [GameServer] ：Map:[3] Spawn[2: Mon:1002,Lv:1] At Point:2
+2021-12-24 11:31:40,241 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:7
+2021-12-24 11:31:40,242 [5] [INFO ] [GameServer] ：Map:[3] Spawn[3: Mon:1003,Lv:1] At Point:3
+2021-12-24 11:31:40,243 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:8
+2021-12-24 11:31:40,244 [5] [INFO ] [GameServer] ：Map:[3] Spawn[4: Mon:1005,Lv:1] At Point:4
+2021-12-24 11:31:40,246 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:9
+2021-12-24 11:32:36,432 [3] [INFO ] [GameServer] ：CharacterLeave: characterID:3:1111
+2021-12-24 11:32:36,435 [3] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:3
+2021-12-24 11:32:36,437 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 3:1111 : Map:1 Character:3:1111
+2021-12-24 11:32:36,439 [3] [WARN ] [GameServer] ：Client[] Disconnected

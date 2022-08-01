@@ -1,0 +1,160 @@
+
+2021-08-04 21:56:58,554 [1] [INFO ] [GameServer] ：Game Server Init
+2021-08-04 21:57:00,664 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-08-04 21:57:01,604 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-08-04 21:57:01,610 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-08-04 21:57:01,611 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-08-04 21:57:01,611 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-08-04 21:57:01,612 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-08-04 21:57:01,850 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 21:57:01,850 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 21:57:01,851 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 21:57:01,858 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 21:57:01,853 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 21:57:01,856 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 21:57:01,854 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 21:57:01,862 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 21:57:01,956 [1] [WARN ] [GameServer] ：NetService Started
+2021-08-04 21:57:10,311 [3] [WARN ] [GameServer] ：Client[127.0.0.1:63054]] Connected
+2021-08-04 21:57:10,431 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-04 21:57:10,754 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-08-04 21:57:36,346 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-08-04 21:57:36,352 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:琴 Map:1
+2021-08-04 21:57:36,810 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.SqlClient.SqlException (0x80131904): 列名 'CharacterID' 无效。
+列名 'CharacterID' 无效。
+   在 System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   在 System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   在 System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   在 System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   在 System.Data.SqlClient.SqlDataReader.get_MetaData()
+   在 System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   在 System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   在 System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   在 System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   在 System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.Reader(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+ClientConnectionId:1ca20099-e9d6-4b68-a529-f8b0a652e867
+Error Number:207,State:1,Class:16, 执行命令定义时出错。有关详细信息，请参阅内部异常。, EntityFramework,    在 System.Data.Entity.Core.EntityClient.Internal.EntityCommandDefinition.ExecuteStoreCommands(EntityCommand entityCommand, CommandBehavior behavior)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlan.Execute[TResultType](ObjectContext context, ObjectParameterCollection parameterValues)
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.EntityCollection`1.Load(List`1 collection, MergeOption mergeOption)
+   在 System.Data.Entity.Core.Objects.DataClasses.RelatedEnd.DeferredLoad()
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.LoadProperty[TItem](TItem propertyValue, String relationshipName, String targetRoleName, Boolean mustBeNull, Object wrapperObject)
+   在 System.Data.Entity.Core.Objects.Internal.LazyLoadBehavior.<>c__DisplayClass7`2.<GetInterceptorDelegate>b__1(TProxy proxy, TItem item)
+   在 System.Data.Entity.DynamicProxies.TCharacter_EFE538FF26CECBA445AF03A853B321DE7A32858EEA0309640DADAC39184D731C.get_Items()
+   在 GameServer.Managers.ItemManager..ctor(Character owner) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Managers\ItemManager.cs:行号 25
+   在 GameServer.Entities.Character..ctor(CharacterType type, TCharacter cha) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Entities\Character.cs:行号 35
+   在 GameServer.Managers.CharacterManager.AddCharacter(TCharacter cha) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Managers\CharacterManager.cs:行号 38
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 153
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\2021\mmorpg\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-08-04 22:01:10,604 [1] [INFO ] [GameServer] ：Game Server Init
+2021-08-04 22:01:11,188 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-08-04 22:01:11,692 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-08-04 22:01:11,697 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-08-04 22:01:11,697 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-08-04 22:01:11,697 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-08-04 22:01:11,698 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-08-04 22:01:11,716 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 22:01:11,716 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 22:01:11,716 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 22:01:11,719 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 22:01:11,726 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 22:01:11,728 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 22:01:11,733 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 22:01:11,744 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 22:01:11,810 [1] [WARN ] [GameServer] ：NetService Started
+2021-08-04 22:01:13,596 [3] [WARN ] [GameServer] ：Client[127.0.0.1:63166]] Connected
+2021-08-04 22:01:13,755 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-04 22:01:14,016 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:1  Pass:1
+2021-08-04 22:01:24,727 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-04 22:01:24,729 [6] [INFO ] [GameServer] ：UserRegisterRequest: User:2  Pass:2
+2021-08-04 22:01:29,533 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-04 22:01:29,539 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-08-04 22:01:40,561 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2021-08-04 22:01:40,569 [5] [INFO ] [GameServer] ：UserRegisterRequest: Name:枚  Class:Wizard
+2021-08-04 22:02:01,199 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2021-08-04 22:02:01,201 [5] [INFO ] [GameServer] ：UserRegisterRequest: Name:荷  Class:Archer
+2021-08-04 22:02:07,123 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-04 22:02:07,124 [5] [INFO ] [GameServer] ：UserRegisterRequest: Name:23  Class:Warrior
+2021-08-04 22:02:10,770 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-08-04 22:02:10,777 [6] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:荷 Map:1
+2021-08-04 22:02:10,788 [6] [INFO ] [GameServer] ：HasItem:[1]False
+2021-08-04 22:02:10,792 [6] [INFO ] [GameServer] ：[2]AddItem[ID:1,Count:2] addCount:2
+2021-08-04 22:02:11,047 [6] [INFO ] [GameServer] ：[2]UseItem[1:ID:1,Count:2]
+2021-08-04 22:02:11,048 [6] [INFO ] [GameServer] ：Item:[1]ID:1,Count:2
+2021-08-04 22:02:11,063 [6] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-08-04 22:03:00,414 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-04 22:03:00,417 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:荷 Map:1
+2021-08-04 22:03:00,420 [5] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2021-08-04 22:03:09,168 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-08-04 22:03:09,169 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:荷 Map:1
+2021-08-04 22:03:09,174 [5] [INFO ] [GameServer] ：HasItem:[1]True
+2021-08-04 22:03:09,177 [5] [INFO ] [GameServer] ：[2]RemoveItem[ID:1,Count:1] removeCount:1
+2021-08-04 22:03:09,208 [5] [INFO ] [GameServer] ：[2]UseItem[1:ID:1,Count:1]
+2021-08-04 22:03:09,209 [5] [INFO ] [GameServer] ：Item:[1]ID:1,Count:1
+2021-08-04 22:03:09,212 [5] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:2
+2021-08-04 22:03:14,422 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-04 22:03:14,424 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:2:荷 Map:1
+2021-08-04 22:03:14,428 [5] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:2
+2021-08-04 22:03:16,583 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-08-04 22:03:16,584 [6] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:荷 Map:1
+2021-08-04 22:03:16,586 [6] [INFO ] [GameServer] ：HasItem:[1]True
+2021-08-04 22:03:16,587 [6] [INFO ] [GameServer] ：[2]RemoveItem[ID:1,Count:0] removeCount:1
+2021-08-04 22:03:16,655 [6] [INFO ] [GameServer] ：[2]UseItem[1:ID:1,Count:0]
+2021-08-04 22:03:16,658 [6] [INFO ] [GameServer] ：Item:[1]ID:1,Count:0
+2021-08-04 22:03:16,664 [6] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:3
+2021-08-04 22:03:23,270 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-04 22:03:23,273 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:3:荷 Map:1
+2021-08-04 22:03:23,274 [5] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:3
+2021-08-04 22:23:32,129 [1] [INFO ] [GameServer] ：Game Server Init
+2021-08-04 22:23:32,619 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-08-04 22:23:33,048 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-08-04 22:23:33,052 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-08-04 22:23:33,053 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-08-04 22:23:33,053 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-08-04 22:23:33,055 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-08-04 22:23:33,124 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 22:23:33,124 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 22:23:33,124 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 22:23:33,126 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 22:23:33,130 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 22:23:33,133 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 22:23:33,133 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 22:23:33,138 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-04 22:23:33,212 [1] [WARN ] [GameServer] ：NetService Started
+2021-08-04 22:28:01,304 [3] [WARN ] [GameServer] ：Client[127.0.0.1:64959]] Connected
+2021-08-04 22:28:01,417 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-04 22:28:01,719 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-08-04 22:28:11,038 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-08-04 22:28:11,047 [6] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:荷 Map:1
+2021-08-04 22:28:11,153 [6] [INFO ] [GameServer] ：HasItem:[1]False
+2021-08-04 22:28:11,156 [6] [INFO ] [GameServer] ：[2]AddItem[ID:1,Count:2] addCount:2
+2021-08-04 22:28:11,852 [6] [INFO ] [GameServer] ：[2]UseItem[1:ID:1,Count:2]
+2021-08-04 22:28:11,853 [6] [INFO ] [GameServer] ：Item:[1]ID:1,Count:2
+2021-08-04 22:28:11,862 [6] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-08-04 22:28:23,862 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-04 22:28:23,865 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:荷 Map:1
+2021-08-04 22:28:23,867 [5] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2021-08-04 22:28:25,675 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-08-04 22:28:25,677 [6] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:荷 Map:1
+2021-08-04 22:28:25,679 [6] [INFO ] [GameServer] ：HasItem:[1]True
+2021-08-04 22:28:25,681 [6] [INFO ] [GameServer] ：[2]RemoveItem[ID:1,Count:1] removeCount:1
+2021-08-04 22:28:25,688 [6] [INFO ] [GameServer] ：[2]UseItem[1:ID:1,Count:1]
+2021-08-04 22:28:25,688 [6] [INFO ] [GameServer] ：Item:[1]ID:1,Count:1
+2021-08-04 22:28:25,690 [6] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:2
+2021-08-04 22:29:03,490 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-04 22:29:03,492 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:2:荷 Map:1
+2021-08-04 22:29:03,495 [5] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:2
+2021-08-04 22:29:05,671 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-08-04 22:29:05,675 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:荷 Map:1
+2021-08-04 22:29:05,676 [5] [INFO ] [GameServer] ：HasItem:[1]True
+2021-08-04 22:29:05,679 [5] [INFO ] [GameServer] ：[2]RemoveItem[ID:1,Count:0] removeCount:1
+2021-08-04 22:29:05,686 [5] [INFO ] [GameServer] ：[2]UseItem[1:ID:1,Count:0]
+2021-08-04 22:29:05,691 [5] [INFO ] [GameServer] ：Item:[1]ID:1,Count:0
+2021-08-04 22:29:05,694 [5] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:3
+2021-08-04 22:29:52,679 [13] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:3

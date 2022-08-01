@@ -1,0 +1,1651 @@
+
+2021-11-23 20:25:38,819 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-23 20:25:41,411 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-23 20:25:42,666 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-11-23 20:25:42,677 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-11-23 20:25:42,678 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-11-23 20:25:42,679 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-11-23 20:25:51,160 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-23 20:25:51,188 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 20:25:51,191 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 20:25:51,207 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 20:25:51,292 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 20:25:51,293 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 20:25:51,334 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 20:25:51,342 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 20:25:51,354 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 20:25:51,412 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-23 20:26:51,564 [5] [INFO ] [GameServer] ：Map:[2] Spawn[1: Mon:1001,Lv:1] At Point:1
+2021-11-23 20:26:51,577 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:1
+2021-11-23 20:26:51,579 [5] [INFO ] [GameServer] ：Map:[2] Spawn[2: Mon:1002,Lv:1] At Point:2
+2021-11-23 20:26:51,579 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:2
+2021-11-23 20:26:51,580 [5] [INFO ] [GameServer] ：Map:[2] Spawn[3: Mon:1003,Lv:1] At Point:3
+2021-11-23 20:26:51,580 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:3
+2021-11-23 20:26:51,580 [5] [INFO ] [GameServer] ：Map:[2] Spawn[4: Mon:1005,Lv:1] At Point:4
+2021-11-23 20:26:51,581 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:4
+2021-11-23 20:26:51,581 [5] [INFO ] [GameServer] ：Map:[3] Spawn[1: Mon:1001,Lv:1] At Point:1
+2021-11-23 20:26:51,581 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:5
+2021-11-23 20:26:51,582 [5] [INFO ] [GameServer] ：Map:[3] Spawn[2: Mon:1002,Lv:1] At Point:2
+2021-11-23 20:26:51,582 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:6
+2021-11-23 20:26:51,583 [5] [INFO ] [GameServer] ：Map:[3] Spawn[3: Mon:1003,Lv:1] At Point:3
+2021-11-23 20:26:51,583 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:7
+2021-11-23 20:26:51,585 [5] [INFO ] [GameServer] ：Map:[3] Spawn[4: Mon:1005,Lv:1] At Point:4
+2021-11-23 20:26:51,586 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:8
+2021-11-23 20:31:14,195 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54260]] Connected
+2021-11-23 20:31:14,402 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-11-23 20:31:16,497 [6] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-11-23 20:31:26,103 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-23 20:31:26,109 [7] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:大法 Map:1
+2021-11-23 20:31:26,429 [7] [INFO ] [GameServer] ：1:大法 GetFriendInfo: 2:大法 Status:0
+2021-11-23 20:31:26,437 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 20:31:26,438 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 0<1637670351.15311
+2021-11-23 20:31:26,629 [7] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-11-23 20:31:26,630 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 20:31:26,631 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637670351.15311<1637670351.15311
+2021-11-23 20:31:34,338 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 20:31:34,354 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:9 Evt:None Entity:(9:pos:(5000,4000,820),dir:(98,-18,0),spd:0
+2021-11-23 20:31:34,437 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 20:31:34,438 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:9 Evt:None Entity:(9:pos:(5000,4000,820),dir:(94,-35,0),spd:0
+2021-11-23 20:31:34,520 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 20:31:34,521 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:9 Evt:None Entity:(9:pos:(5000,4000,820),dir:(86,-51,0),spd:0
+2021-11-23 20:31:34,627 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 20:31:34,628 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:9 Evt:None Entity:(9:pos:(5000,4000,820),dir:(74,-68,0),spd:0
+2021-11-23 20:31:34,710 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 20:31:34,711 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:9 Evt:None Entity:(9:pos:(5000,4000,820),dir:(61,-79,0),spd:0
+2021-11-23 20:31:34,787 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 20:31:34,789 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:9 Evt:None Entity:(9:pos:(5000,4000,820),dir:(46,-89,0),spd:0
+2021-11-23 20:31:34,892 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 20:31:34,893 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:9 Evt:None Entity:(9:pos:(5000,4000,820),dir:(27,-96,0),spd:0
+2021-11-23 20:31:34,966 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 20:31:34,967 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:9 Evt:None Entity:(9:pos:(5000,4000,820),dir:(9,-100,0),spd:0
+2021-11-23 20:31:35,070 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2021-11-23 20:31:35,071 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:9 Evt:None Entity:(9:pos:(5000,4000,820),dir:(-10,-100,0),spd:0
+2021-11-23 20:31:35,257 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2021-11-23 20:31:35,258 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:9 Evt:None Entity:(9:pos:(5000,4000,820),dir:(-28,-96,0),spd:0
+2021-11-23 20:31:45,462 [3] [INFO ] [GameServer] ：CharacterLeave: characterID:1:大法
+2021-11-23 20:31:45,469 [3] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2021-11-23 20:31:45,474 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:大法 : Map:1 Character:1:大法
+2021-11-23 20:31:45,483 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-23 20:35:32,210 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-23 20:35:32,569 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-23 20:35:33,184 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-11-23 20:35:33,190 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-11-23 20:35:33,191 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-11-23 20:35:33,191 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-11-23 20:35:36,956 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-23 20:35:36,963 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 20:35:36,963 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 20:35:36,963 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 20:35:36,963 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 20:35:36,963 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 20:35:36,963 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 20:35:36,963 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 20:35:36,964 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 20:35:37,061 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-23 20:36:37,182 [5] [INFO ] [GameServer] ：Map:[2] Spawn[1: Mon:1001,Lv:1] At Point:1
+2021-11-23 20:36:37,201 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:1
+2021-11-23 20:36:37,202 [5] [INFO ] [GameServer] ：Map:[2] Spawn[2: Mon:1002,Lv:1] At Point:2
+2021-11-23 20:36:37,202 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:2
+2021-11-23 20:36:37,203 [5] [INFO ] [GameServer] ：Map:[2] Spawn[3: Mon:1003,Lv:1] At Point:3
+2021-11-23 20:36:37,203 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:3
+2021-11-23 20:36:37,204 [5] [INFO ] [GameServer] ：Map:[2] Spawn[4: Mon:1005,Lv:1] At Point:4
+2021-11-23 20:36:37,204 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:4
+2021-11-23 20:36:37,204 [5] [INFO ] [GameServer] ：Map:[3] Spawn[1: Mon:1001,Lv:1] At Point:1
+2021-11-23 20:36:37,205 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:5
+2021-11-23 20:36:37,205 [5] [INFO ] [GameServer] ：Map:[3] Spawn[2: Mon:1002,Lv:1] At Point:2
+2021-11-23 20:36:37,205 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:6
+2021-11-23 20:36:37,205 [5] [INFO ] [GameServer] ：Map:[3] Spawn[3: Mon:1003,Lv:1] At Point:3
+2021-11-23 20:36:37,206 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:7
+2021-11-23 20:36:37,207 [5] [INFO ] [GameServer] ：Map:[3] Spawn[4: Mon:1005,Lv:1] At Point:4
+2021-11-23 20:36:37,209 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:8
+2021-11-23 20:37:00,945 [3] [WARN ] [GameServer] ：Client[127.0.0.1:65240]] Connected
+2021-11-23 20:37:01,098 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-11-23 20:37:01,358 [9] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-11-23 20:37:57,355 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-23 20:37:57,395 [7] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:大法 Map:1
+2021-11-23 20:37:57,672 [7] [INFO ] [GameServer] ：1:大法 GetFriendInfo: 2:大法 Status:0
+2021-11-23 20:37:57,677 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 20:37:57,678 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 0<1637670936.95021
+2021-11-23 20:37:57,810 [7] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-11-23 20:37:57,812 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 20:37:57,812 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637670936.95021<1637670936.95021
+2021-11-23 20:41:53,488 [3] [INFO ] [GameServer] ：CharacterLeave: characterID:1:大法
+2021-11-23 20:41:53,492 [3] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2021-11-23 20:41:53,493 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:大法 : Map:1 Character:1:大法
+2021-11-23 20:41:53,496 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-23 20:43:35,756 [3] [WARN ] [GameServer] ：Client[127.0.0.1:65499]] Connected
+2021-11-23 20:43:35,941 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-11-23 20:43:35,944 [13] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-11-23 20:43:38,622 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-23 20:43:38,624 [6] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:大法 Map:1
+2021-11-23 20:43:38,626 [6] [INFO ] [GameServer] ：1:大法 GetFriendInfo: 2:大法 Status:0
+2021-11-23 20:43:38,627 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 20:43:38,629 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 0<1637670936.95021
+2021-11-23 20:43:38,630 [6] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-11-23 20:43:38,631 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 20:43:38,634 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637670936.95021<1637670936.95021
+2021-11-23 20:43:49,170 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2021-11-23 20:43:49,177 [8] [INFO ] [GameServer] ：OnItemBuy::character:1:Shop:3 ShopItem:1
+2021-11-23 20:43:49,180 [8] [INFO ] [GameServer] ：BuyItem: :Character:1:Item:8001 Count:1 Price:1000
+2021-11-23 20:43:49,183 [8] [INFO ] [GameServer] ：[1]AddItem[ID:8001,Count:1] addCount:1
+2021-11-23 20:43:50,125 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 20:43:50,127 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637670936.95021<1637670936.95021
+2021-11-23 20:43:59,540 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2021-11-23 20:43:59,550 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:10 Evt:Ride Entity:(10:pos:(5000,4000,820),dir:(100,0,0),spd:0
+2021-11-23 20:44:06,046 [3] [INFO ] [GameServer] ：CharacterLeave: characterID:1:大法
+2021-11-23 20:44:06,048 [3] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2021-11-23 20:44:06,052 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:大法 : Map:1 Character:1:大法
+2021-11-23 20:44:06,056 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-23 20:57:53,479 [3] [WARN ] [GameServer] ：Client[127.0.0.1:49753]] Connected
+2021-11-23 20:57:53,621 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-11-23 20:57:53,623 [11] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-11-23 20:58:26,020 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-23 20:59:58,730 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-23 20:59:59,223 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-23 20:59:59,913 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-11-23 20:59:59,925 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-11-23 20:59:59,925 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-11-23 20:59:59,925 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-11-23 21:00:04,089 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-23 21:00:04,096 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 21:00:04,096 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 21:00:04,096 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 21:00:04,097 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 21:00:04,097 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 21:00:04,097 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 21:00:04,098 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 21:00:04,099 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-23 21:00:04,209 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-23 21:00:26,270 [3] [WARN ] [GameServer] ：Client[127.0.0.1:49893]] Connected
+2021-11-23 21:00:26,497 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-11-23 21:00:26,762 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-11-23 21:01:04,376 [5] [INFO ] [GameServer] ：Map:[2] Spawn[1: Mon:1001,Lv:1] At Point:1
+2021-11-23 21:01:04,385 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:1
+2021-11-23 21:01:04,385 [5] [INFO ] [GameServer] ：Map:[2] Spawn[2: Mon:1002,Lv:1] At Point:2
+2021-11-23 21:01:04,386 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:2
+2021-11-23 21:01:04,386 [5] [INFO ] [GameServer] ：Map:[2] Spawn[3: Mon:1003,Lv:1] At Point:3
+2021-11-23 21:01:04,387 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:3
+2021-11-23 21:01:04,387 [5] [INFO ] [GameServer] ：Map:[2] Spawn[4: Mon:1005,Lv:1] At Point:4
+2021-11-23 21:01:04,387 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:4
+2021-11-23 21:01:04,388 [5] [INFO ] [GameServer] ：Map:[3] Spawn[1: Mon:1001,Lv:1] At Point:1
+2021-11-23 21:01:04,388 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:5
+2021-11-23 21:01:04,388 [5] [INFO ] [GameServer] ：Map:[3] Spawn[2: Mon:1002,Lv:1] At Point:2
+2021-11-23 21:01:04,390 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:6
+2021-11-23 21:01:04,393 [5] [INFO ] [GameServer] ：Map:[3] Spawn[3: Mon:1003,Lv:1] At Point:3
+2021-11-23 21:01:04,395 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:7
+2021-11-23 21:01:04,396 [5] [INFO ] [GameServer] ：Map:[3] Spawn[4: Mon:1005,Lv:1] At Point:4
+2021-11-23 21:01:04,397 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:8
+2021-11-23 21:01:20,247 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-23 21:02:26,892 [3] [WARN ] [GameServer] ：Client[127.0.0.1:49935]] Connected
+2021-11-23 21:02:27,055 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-11-23 21:02:27,057 [8] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-11-23 21:02:56,486 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-23 21:04:33,227 [14] [WARN ] [GameServer] ：Client[127.0.0.1:49984]] Connected
+2021-11-23 21:04:33,388 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-11-23 21:04:33,389 [12] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-11-23 21:04:46,066 [14] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-23 21:06:41,073 [14] [WARN ] [GameServer] ：Client[127.0.0.1:50039]] Connected
+2021-11-23 21:06:41,236 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-11-23 21:06:41,237 [9] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-11-23 21:08:03,889 [14] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-23 21:09:37,383 [23] [WARN ] [GameServer] ：Client[127.0.0.1:50096]] Connected
+2021-11-23 21:09:37,572 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-11-23 21:09:37,573 [6] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-11-23 21:09:43,106 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-11-23 21:09:43,114 [11] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:3:1111 Map:1
+2021-11-23 21:09:43,329 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:1111
+2021-11-23 21:09:43,351 [11] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:3
+2021-11-23 21:09:43,353 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:1111
+2021-11-23 21:09:51,126 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:51,136 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5000,4000,820),dir:(98,-20,0),spd:0
+2021-11-23 21:09:51,279 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:51,281 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5000,4000,820),dir:(93,-37,0),spd:0
+2021-11-23 21:09:51,585 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-23 21:09:51,588 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:MoveFwd Entity:(9:pos:(5000,4000,820),dir:(93,-37,0),spd:300
+2021-11-23 21:09:51,700 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:51,701 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5035,3986,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:51,745 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:51,746 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5044,3983,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:51,786 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:51,787 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5057,3977,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:51,823 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:51,824 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5061,3976,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:51,858 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:51,859 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5061,3976,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:51,895 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:51,896 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5061,3976,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:51,955 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:51,957 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5096,3962,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:52,001 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:52,003 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5109,3957,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:52,045 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:52,046 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5122,3951,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:52,081 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:52,082 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5126,3950,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:52,117 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:52,118 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5126,3950,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:52,158 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:52,160 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5126,3950,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:52,199 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:52,200 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5161,3936,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:52,251 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:52,252 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5174,3931,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:52,291 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:52,292 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5179,3929,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:52,330 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:52,331 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5179,3929,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:52,381 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:52,382 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5179,3929,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:52,426 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:52,427 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5222,3912,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:52,469 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:52,470 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5231,3908,801),dir:(93,-37,0),spd:300
+2021-11-23 21:09:52,511 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:52,513 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5243,3902,801),dir:(84,-55,0),spd:300
+2021-11-23 21:09:52,591 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:52,593 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5255,3894,801),dir:(72,-69,0),spd:0
+2021-11-23 21:09:52,633 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:52,635 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5255,3894,801),dir:(72,-69,0),spd:0
+2021-11-23 21:09:52,672 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:52,673 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5255,3894,801),dir:(59,-81,0),spd:0
+2021-11-23 21:09:52,709 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:52,710 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5255,3894,801),dir:(59,-81,0),spd:0
+2021-11-23 21:09:52,764 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:52,765 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5255,3894,801),dir:(44,-90,0),spd:0
+2021-11-23 21:09:52,820 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:52,822 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5255,3894,801),dir:(44,-90,0),spd:0
+2021-11-23 21:09:52,868 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-23 21:09:52,869 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:Idle Entity:(9:pos:(5255,3894,801),dir:(28,-96,0),spd:0
+2021-11-23 21:09:52,909 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:52,910 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5255,3894,801),dir:(28,-96,0),spd:0
+2021-11-23 21:09:52,948 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:52,949 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5255,3894,801),dir:(10,-100,0),spd:0
+2021-11-23 21:09:52,989 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:52,991 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5255,3894,801),dir:(10,-100,0),spd:0
+2021-11-23 21:09:53,032 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:53,033 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5255,3894,801),dir:(10,-100,0),spd:0
+2021-11-23 21:09:53,070 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:53,071 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5255,3894,801),dir:(10,-100,0),spd:0
+2021-11-23 21:09:53,214 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-23 21:09:53,215 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:MoveFwd Entity:(9:pos:(5255,3894,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:53,255 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:53,256 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5253,3878,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:53,294 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:53,295 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5254,3869,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:53,333 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:53,334 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5254,3869,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:53,371 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:53,372 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5254,3869,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:53,456 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:53,457 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5258,3827,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:53,499 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:53,500 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5260,3813,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:53,542 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:53,543 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5260,3808,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:53,580 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:53,581 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5260,3808,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:53,684 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:53,685 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5265,3761,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:53,735 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:53,736 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5266,3747,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:53,781 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:53,782 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5268,3733,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:53,840 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:53,841 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5268,3733,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:53,896 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:53,897 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5268,3733,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:53,949 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:53,950 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5272,3691,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:54,001 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:54,002 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5274,3672,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:54,060 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:54,062 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5274,3668,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:54,096 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:54,097 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5274,3668,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:54,139 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:54,140 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5274,3668,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:54,183 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:54,184 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5279,3621,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:54,224 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:54,225 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5280,3607,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:54,269 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:54,270 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5281,3597,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:54,308 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:54,310 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5281,3597,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:54,349 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:54,350 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5281,3597,801),dir:(10,-100,0),spd:300
+2021-11-23 21:09:54,385 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:54,386 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5288,3562,801),dir:(10,-100,0),spd:0
+2021-11-23 21:09:54,421 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-23 21:09:54,422 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:Idle Entity:(9:pos:(5288,3562,801),dir:(10,-100,0),spd:0
+2021-11-23 21:09:55,179 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:55,180 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5288,3562,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:55,262 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-23 21:09:55,264 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:MoveFwd Entity:(9:pos:(5288,3562,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:55,307 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:55,308 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5288,3556,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:55,350 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:55,351 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5292,3542,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:55,390 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:55,391 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5294,3533,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:55,431 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:55,432 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3520,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:55,471 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:55,471 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5301,3511,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:55,508 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:55,516 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5301,3511,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:55,548 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:55,549 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5301,3511,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:55,583 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:55,584 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5301,3511,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:55,623 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:55,624 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5301,3511,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:55,661 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:55,662 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5314,3461,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:55,706 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:55,707 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5318,3448,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:55,754 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:55,755 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5322,3434,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:55,800 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:55,801 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5326,3421,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:55,855 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:55,856 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5328,3412,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:55,894 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:55,896 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5331,3403,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:55,940 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:55,941 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5331,3403,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:56,019 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:56,020 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5331,3403,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:56,071 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:56,072 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5345,3353,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:56,116 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:56,118 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5350,3335,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:56,159 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:56,160 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5352,3326,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:56,201 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:56,202 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5356,3313,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:56,243 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:56,245 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5359,3304,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:56,285 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:56,287 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5362,3291,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:56,391 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:56,392 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5366,3276,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:56,437 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:56,438 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5358,3306,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:56,476 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:56,478 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5354,3320,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:56,521 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:56,522 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5351,3330,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:56,559 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:56,561 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5350,3334,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:56,596 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:56,597 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5350,3334,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:56,639 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:56,641 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5350,3334,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:56,677 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2021-11-23 21:09:56,678 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:Idle Entity:(9:pos:(5350,3334,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:56,719 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2021-11-23 21:09:56,720 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:MoveBack Entity:(9:pos:(5335,3387,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:56,762 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:56,763 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5333,3397,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:56,803 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:56,804 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5328,3411,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:56,860 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:56,861 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5326,3421,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:56,910 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:56,911 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5320,3440,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:56,959 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:56,961 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5318,3450,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:57,005 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:57,006 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5318,3450,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:57,063 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:57,064 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5318,3450,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:57,112 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:57,113 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5304,3498,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:57,164 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:57,164 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5300,3512,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:57,211 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:57,212 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5296,3527,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:57,269 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:57,270 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5292,3541,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:57,319 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:57,320 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5288,3556,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:57,364 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:57,365 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5288,3556,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:57,400 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:57,401 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5288,3556,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:57,448 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:57,450 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5288,3556,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:57,502 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:09:57,503 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5273,3609,801),dir:(27,-96,0),spd:-300
+2021-11-23 21:09:57,547 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:57,548 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5272,3613,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:57,588 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:57,589 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5272,3613,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:57,631 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:57,632 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5272,3613,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:57,675 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:57,676 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5272,3613,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:57,727 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:57,729 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5286,3564,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:57,774 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:57,775 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5289,3550,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:57,820 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:57,821 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5293,3537,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:57,873 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:09:57,874 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5296,3528,801),dir:(27,-96,0),spd:300
+2021-11-23 21:09:57,918 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:57,919 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:57,965 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:57,966 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:58,007 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:58,008 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:58,052 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-23 21:09:58,053 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:Idle Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:58,096 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:58,097 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:58,137 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-23 21:09:58,138 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:MoveFwd Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:58,180 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:58,181 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:58,221 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:58,223 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:58,262 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:58,263 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:58,301 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:58,302 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:58,346 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:58,347 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:58,386 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:58,387 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:58,424 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:58,425 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:58,466 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-23 21:09:58,467 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:Idle Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:58,512 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:58,513 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:58,913 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:58,915 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:58,961 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:58,963 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,003 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,004 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,046 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,047 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,085 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,087 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,129 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,131 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,170 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,171 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,220 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,221 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,266 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,267 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,311 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,312 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,356 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,357 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,399 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,401 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,450 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,451 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,523 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,524 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,570 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,571 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,614 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,615 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,659 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,661 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,704 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,705 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,742 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,743 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,782 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,783 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,824 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,825 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,863 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,864 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,905 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,907 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,948 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,949 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:09:59,984 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:09:59,986 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,031 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,033 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,076 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,078 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,124 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,125 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,166 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,168 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,206 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,208 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,247 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,248 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,287 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,288 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,327 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,328 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,368 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,369 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,410 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,411 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,449 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,451 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,491 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,492 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,536 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,537 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,575 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,577 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,617 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,618 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,657 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,658 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,698 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,699 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,741 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,742 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,782 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,783 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,821 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,823 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,865 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,867 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,912 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,913 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:00,959 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:00,960 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,006 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,008 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,055 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,057 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,099 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,100 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,137 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,138 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,178 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,179 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,222 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,223 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,266 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,267 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,313 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,314 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,357 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,358 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,402 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,403 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,445 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,446 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,489 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,490 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,531 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,532 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,572 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,574 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,612 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,613 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,652 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,653 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,691 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,692 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,733 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,734 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,772 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,773 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,817 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,818 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,859 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,860 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,905 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,906 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,942 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,944 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:01,988 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:01,989 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,032 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,033 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,073 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,074 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,112 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,113 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,157 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,158 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,201 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,202 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,243 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,244 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,286 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,288 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,332 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,333 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,403 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,404 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,452 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,453 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,492 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,493 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,543 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,544 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,584 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,585 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,627 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,628 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,670 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,671 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,709 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,710 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,751 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,752 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,795 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,796 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,833 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,834 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,872 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,873 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,916 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,917 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,956 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,957 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:02,997 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:02,998 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,038 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,040 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,078 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,079 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,115 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,116 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,157 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,158 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,199 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,200 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,246 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,247 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,287 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,288 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,335 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,336 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,377 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,379 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,418 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,419 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,458 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,459 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,497 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,499 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,540 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,541 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,580 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,581 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,621 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,622 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,662 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,664 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,704 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,705 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,744 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,746 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,791 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,792 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,838 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,839 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,884 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,885 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,926 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,928 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:03,964 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:03,964 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:04,005 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:04,006 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:04,058 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:04,059 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:04,102 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:04,103 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:04,142 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:10:04,143 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:3:1111 Entity.Id:9 Evt:None Entity:(9:pos:(5298,3519,801),dir:(27,-96,0),spd:0
+2021-11-23 21:10:08,044 [23] [INFO ] [GameServer] ：CharacterLeave: characterID:3:1111
+2021-11-23 21:10:08,048 [23] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:3
+2021-11-23 21:10:08,053 [23] [INFO ] [GameServer] ：SendCharacterLeaveMap To 3:1111 : Map:1 Character:3:1111
+2021-11-23 21:10:08,056 [23] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-23 21:14:48,617 [23] [WARN ] [GameServer] ：Client[127.0.0.1:50208]] Connected
+2021-11-23 21:14:48,753 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-11-23 21:14:48,755 [13] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-11-23 21:14:55,192 [23] [WARN ] [GameServer] ：Client[127.0.0.1:50211]] Connected
+2021-11-23 21:14:55,310 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-11-23 21:14:55,311 [10] [INFO ] [GameServer] ：UserLoginRequest: User:2  Pass:2
+2021-11-23 21:14:59,917 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-23 21:14:59,919 [7] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:大法 Map:1
+2021-11-23 21:14:59,950 [7] [INFO ] [GameServer] ：2:大法 GetFriendInfo: 1:大法 Status:0
+2021-11-23 21:14:59,951 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:14:59,952 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 0<1637672404.08306
+2021-11-23 21:15:00,044 [7] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:2
+2021-11-23 21:15:00,045 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:00,047 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:09,280 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-23 21:15:09,282 [8] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:大法 Map:1
+2021-11-23 21:15:09,300 [8] [INFO ] [GameServer] ：1:大法 GetFriendInfo: 2:大法 Status:1
+2021-11-23 21:15:09,301 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:09,303 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 0<1637672404.08306
+2021-11-23 21:15:09,351 [8] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-11-23 21:15:09,352 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:09,354 [8] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2:大法
+2021-11-23 21:15:09,355 [8] [INFO ] [GameServer] ：2:大法 GetFriendInfo: 1:大法 Status:1
+2021-11-23 21:15:09,357 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:09,360 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:09,361 [8] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1:大法
+2021-11-23 21:15:09,362 [8] [INFO ] [GameServer] ：1:大法 GetFriendInfo: 2:大法 Status:1
+2021-11-23 21:15:09,364 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:15,280 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2021-11-23 21:15:15,281 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:MoveFwd Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2021-11-23 21:15:15,284 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:15,285 [12] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2:大法
+2021-11-23 21:15:15,286 [12] [INFO ] [GameServer] ：2:大法 GetFriendInfo: 1:大法 Status:1
+2021-11-23 21:15:15,287 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:15,363 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2021-11-23 21:15:15,364 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5116,4000,798),dir:(100,0,0),spd:300
+2021-11-23 21:15:15,371 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:15,372 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:15,416 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2021-11-23 21:15:15,417 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5125,4000,798),dir:(100,0,0),spd:300
+2021-11-23 21:15:15,420 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:15,421 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:15,447 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2021-11-23 21:15:15,449 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5130,4000,798),dir:(100,0,0),spd:300
+2021-11-23 21:15:15,451 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:15,453 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:15,497 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2021-11-23 21:15:15,499 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5130,4000,798),dir:(100,0,0),spd:300
+2021-11-23 21:15:15,502 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:15,503 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:15,531 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2021-11-23 21:15:15,532 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5163,4000,798),dir:(100,0,0),spd:300
+2021-11-23 21:15:15,535 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:15,536 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:15,562 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:15,564 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:15,566 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:15,567 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:15,614 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:15,615 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:15,620 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:15,621 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:15,648 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-11-23 21:15:15,649 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:Idle Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:15,651 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:15,653 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:15,697 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:15,699 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:15,702 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:15,703 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:15,731 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:15,732 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:15,735 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:15,736 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:15,780 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:15,782 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:15,784 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:15,787 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:15,813 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:15,814 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:15,822 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:15,823 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:15,864 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:15,866 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:15,869 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:15,870 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:15,897 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:15,899 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:15,903 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:15,904 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:15,947 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:15,949 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:15,951 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:15,953 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:15,980 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:15,981 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:15,983 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:15,984 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,030 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:16,031 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:16,034 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,038 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,080 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:16,081 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:16,085 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,086 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,113 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:16,114 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:16,117 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,118 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,164 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:16,165 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:16,168 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,169 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,213 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:16,215 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:16,217 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,219 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,247 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:16,248 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:16,251 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,252 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,298 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:16,299 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:16,303 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,305 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,330 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-11-23 21:15:16,331 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(100,0,0),spd:0
+2021-11-23 21:15:16,336 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,337 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,381 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:16,382 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(98,-19,0),spd:0
+2021-11-23 21:15:16,385 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,386 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,414 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:16,415 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(98,-19,0),spd:0
+2021-11-23 21:15:16,418 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,419 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,464 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:16,465 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(98,-19,0),spd:0
+2021-11-23 21:15:16,468 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,469 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,497 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:16,497 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(93,-37,0),spd:0
+2021-11-23 21:15:16,500 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,506 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,529 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:16,531 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(93,-37,0),spd:0
+2021-11-23 21:15:16,535 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,536 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,581 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:16,582 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(83,-55,0),spd:0
+2021-11-23 21:15:16,585 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,586 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,614 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:16,615 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(83,-55,0),spd:0
+2021-11-23 21:15:16,617 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,619 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,663 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:16,665 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(70,-71,0),spd:0
+2021-11-23 21:15:16,668 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,669 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,698 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:16,699 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(70,-71,0),spd:0
+2021-11-23 21:15:16,702 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,702 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,747 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:16,748 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(70,-71,0),spd:0
+2021-11-23 21:15:16,753 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,755 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,779 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:16,780 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(55,-83,0),spd:0
+2021-11-23 21:15:16,785 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,786 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,830 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:16,832 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(55,-83,0),spd:0
+2021-11-23 21:15:16,835 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,836 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,882 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:16,883 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(55,-83,0),spd:0
+2021-11-23 21:15:16,886 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,887 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,915 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:16,916 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(55,-83,0),spd:0
+2021-11-23 21:15:16,918 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,920 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,963 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:16,964 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:16,967 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:16,968 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:16,996 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:16,997 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:17,000 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,005 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,047 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:17,049 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:17,051 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,053 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,081 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:17,082 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5167,4000,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:17,085 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,086 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,130 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,131 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5169,3996,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,134 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,135 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,163 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,164 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5175,3983,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,166 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,168 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,214 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,216 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5179,3974,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,219 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,220 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,248 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,249 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5184,3961,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,252 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,253 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,297 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,298 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5186,3957,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,301 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,302 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,330 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,331 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5186,3957,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,334 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,335 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,380 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,382 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5186,3957,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,384 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,387 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,413 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,414 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5186,3957,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,420 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,421 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,464 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,466 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5186,3957,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,469 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,471 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,498 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,499 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5209,3905,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,502 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,503 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,548 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,550 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5216,3888,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,552 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,553 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,580 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,581 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5222,3875,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,583 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,584 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,632 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,634 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5226,3866,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,641 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,643 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,665 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,667 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5231,3854,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,669 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,671 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,714 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,716 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5235,3845,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,719 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,721 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,748 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,750 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5240,3832,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,752 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,753 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,797 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,798 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5242,3828,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,802 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,803 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,831 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,832 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5242,3828,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,835 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,836 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,880 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,882 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5242,3828,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,884 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,887 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,913 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,914 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5242,3828,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,921 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,922 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,947 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,948 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5242,3828,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:17,951 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:17,952 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:17,997 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:17,999 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5242,3828,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:18,002 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,004 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,032 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:18,033 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5269,3767,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:18,036 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,038 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,064 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:18,065 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5276,3750,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:18,068 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,069 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,115 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:18,116 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5280,3742,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:18,121 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,122 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,146 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:18,147 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5285,3729,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:18,156 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,156 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,181 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:18,182 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5289,3720,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:18,185 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,186 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,231 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:18,233 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5293,3711,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:18,236 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,237 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,264 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:18,264 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5299,3698,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:18,267 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,269 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,296 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:18,298 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5302,3690,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:18,300 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,301 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,346 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:18,348 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5306,3681,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:18,348 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,349 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,381 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:18,383 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5306,3681,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:18,386 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,387 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,430 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:18,432 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5306,3681,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:18,435 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,436 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,464 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:18,465 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5306,3681,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:18,467 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,468 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,513 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:18,515 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5306,3681,798),dir:(40,-92,0),spd:300
+2021-11-23 21:15:18,517 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,518 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,546 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:18,547 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:18,551 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,552 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,597 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:18,598 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:18,601 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,602 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,630 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:18,632 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:18,636 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,637 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,681 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:18,682 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:18,686 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,686 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,713 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:18,715 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:18,717 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,718 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,747 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:18,748 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:18,751 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,752 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,796 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:18,797 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:18,800 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,802 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,830 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:18,831 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:18,836 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,837 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,864 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:18,865 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:18,868 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,869 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,914 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:18,915 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:18,918 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,920 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,947 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:18,948 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:18,951 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,952 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:18,981 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-23 21:15:18,982 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:MoveFwd Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:18,984 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:18,986 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,030 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,031 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,034 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,035 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,063 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,064 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,071 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,072 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,113 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,114 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,117 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,118 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,148 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,149 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,152 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,153 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,196 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,198 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,200 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,202 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,229 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,230 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5334,3611,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,232 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,234 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,280 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,281 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5298,3699,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,287 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,288 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,332 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,333 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5292,3713,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,335 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,337 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,364 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,365 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5286,3727,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,367 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,369 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,414 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,415 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5282,3736,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,418 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,419 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,446 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,447 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5276,3750,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,451 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,452 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,480 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,481 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5276,3750,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,483 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,484 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,531 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,532 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5276,3750,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,535 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,537 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,564 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,566 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5276,3750,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,568 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,570 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,614 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,617 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5276,3750,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,621 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,622 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,647 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,648 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5276,3750,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,651 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,652 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,680 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,682 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5248,3814,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,684 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,685 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,731 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,733 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5244,3823,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,737 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,738 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,764 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,765 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5238,3837,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,769 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,770 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,797 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,799 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5234,3846,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,801 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,803 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,847 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,848 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5230,3856,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,852 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,853 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,880 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,881 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5224,3870,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,884 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,886 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,930 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,931 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5220,3879,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,933 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,935 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:19,963 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:19,964 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5216,3888,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:19,966 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:19,968 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,013 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:20,014 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5216,3888,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:20,017 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,018 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,064 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:20,066 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5216,3888,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:20,068 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,070 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,097 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2021-11-23 21:15:20,098 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5216,3888,798),dir:(40,-92,0),spd:-300
+2021-11-23 21:15:20,101 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,102 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,146 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,148 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,150 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,152 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,180 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,181 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,186 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,188 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,230 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,231 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,235 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,236 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,264 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,265 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,268 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,269 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,314 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,315 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,318 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,319 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,347 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,348 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,351 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,352 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,379 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,381 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,382 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,383 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,430 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,431 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,434 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,436 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,464 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,465 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,468 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,469 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,513 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,514 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,516 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,518 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,547 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,548 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,551 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,552 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,596 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,597 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,600 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,601 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,629 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-23 21:15:20,630 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:Idle Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,632 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,634 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,679 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-23 21:15:20,680 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:MoveBack Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,686 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,687 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,713 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,714 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,716 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,717 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,763 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,764 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,767 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,768 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,812 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,814 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,817 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,818 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,846 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,847 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,849 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,850 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,896 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,897 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,902 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,903 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,947 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,949 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,951 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,953 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:20,980 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:20,981 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:20,985 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:20,986 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:21,030 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:21,031 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:21,035 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:21,036 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:21,065 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:21,066 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:21,068 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:21,069 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:21,113 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:21,114 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:21,118 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:21,120 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:21,146 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:21,146 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:21,152 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:21,153 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:21,198 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:21,199 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:21,202 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:21,204 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:21,230 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:21,232 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:21,234 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:21,236 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:21,262 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:21,263 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:21,266 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:21,267 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:21,313 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:21,315 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:21,317 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:21,318 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:21,346 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:21,346 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:21,350 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:21,351 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:21,395 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:21,397 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:21,402 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:21,404 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:21,430 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:21,431 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:21,435 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:21,436 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:21,482 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:21,483 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:21,486 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:21,488 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:21,515 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:21,516 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:21,518 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:21,520 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:21,564 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:21,565 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:21,567 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:21,571 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:21,596 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:21,597 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:21,603 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:21,605 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:21,646 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:21,648 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:21,652 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:21,653 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:21,699 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-23 21:15:21,701 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:Idle Entity:(11:pos:(5192,3948,798),dir:(40,-92,0),spd:0
+2021-11-23 21:15:21,703 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:21,704 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:23,430 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:23,432 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5000,4000,820),dir:(98,-18,0),spd:0
+2021-11-23 21:15:23,434 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:23,438 [11] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1:大法
+2021-11-23 21:15:23,439 [11] [INFO ] [GameServer] ：1:大法 GetFriendInfo: 2:大法 Status:1
+2021-11-23 21:15:23,440 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:23,513 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:23,515 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5000,4000,820),dir:(93,-36,0),spd:0
+2021-11-23 21:15:23,518 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:23,519 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:23,611 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:23,612 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5000,4000,820),dir:(84,-54,0),spd:0
+2021-11-23 21:15:23,615 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:23,617 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:23,697 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:23,698 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5000,4000,820),dir:(73,-68,0),spd:0
+2021-11-23 21:15:23,700 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:23,703 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:23,812 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:23,813 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5000,4000,820),dir:(59,-81,0),spd:0
+2021-11-23 21:15:23,815 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:23,817 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:26,563 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:26,566 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(23,-97,0),spd:0
+2021-11-23 21:15:26,567 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:26,569 [12] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:2:大法
+2021-11-23 21:15:26,571 [12] [INFO ] [GameServer] ：2:大法 GetFriendInfo: 1:大法 Status:1
+2021-11-23 21:15:26,573 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:27,029 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:27,030 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(3,-100,0),spd:0
+2021-11-23 21:15:27,033 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:27,034 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:27,145 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2021-11-23 21:15:27,146 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:大法 Entity.Id:11 Evt:None Entity:(11:pos:(5192,3948,798),dir:(-15,-99,0),spd:0
+2021-11-23 21:15:27,154 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-23 21:15:27,155 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:33,528 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:33,530 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5000,4000,820),dir:(44,-90,0),spd:0
+2021-11-23 21:15:33,532 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:33,534 [11] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1:大法
+2021-11-23 21:15:33,537 [11] [INFO ] [GameServer] ：1:大法 GetFriendInfo: 2:大法 Status:1
+2021-11-23 21:15:33,538 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:34,343 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-23 21:15:34,345 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:MoveFwd Entity:(10:pos:(5000,4000,820),dir:(44,-90,0),spd:300
+2021-11-23 21:15:34,347 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:34,348 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:34,395 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:34,397 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(4934,3983,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:34,399 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:34,401 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:34,477 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:34,478 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(4942,3966,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:34,481 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:34,484 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:34,528 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:34,530 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(4946,3958,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:34,533 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:34,535 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:34,561 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:34,563 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(4953,3945,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:34,565 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:34,567 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:34,612 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:34,613 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(4959,3933,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:34,616 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:34,617 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:34,645 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:34,646 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(4963,3924,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:34,650 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:34,651 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:34,695 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:34,696 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(4969,3912,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:34,699 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:34,700 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:34,728 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:34,729 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(4973,3903,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:34,736 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:34,737 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:34,778 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:34,779 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(4977,3895,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:34,782 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:34,783 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:34,811 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:34,812 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(4977,3895,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:34,815 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:34,816 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:34,862 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:34,863 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(4977,3895,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:34,866 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:34,868 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:34,911 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:34,913 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(4977,3895,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:34,916 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:34,917 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:34,945 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:34,946 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(4977,3895,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:34,948 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:34,950 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:34,995 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:34,996 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5004,3840,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:35,002 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:35,004 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:35,029 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:35,030 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5004,3840,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:35,031 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:35,033 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:35,078 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:35,079 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5012,3823,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:35,082 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:35,083 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:35,127 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-23 21:15:35,128 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:Idle Entity:(10:pos:(5012,3823,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:35,130 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:35,132 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:35,178 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:35,180 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5012,3823,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:35,185 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:35,186 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:35,746 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-11-23 21:15:35,748 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:MoveFwd Entity:(10:pos:(5012,3823,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:35,750 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:35,751 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:35,778 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:35,779 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5019,3810,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:35,782 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:35,783 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:35,828 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:35,829 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5023,3802,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:35,833 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:35,834 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:35,860 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:35,861 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5029,3789,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:35,864 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:35,865 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:35,911 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:35,912 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5033,3781,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:35,917 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:35,919 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:35,962 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:35,963 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5039,3768,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:35,966 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:35,967 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:35,994 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:35,995 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5045,3756,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:35,997 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:35,999 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,045 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:36,046 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5049,3747,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:36,048 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,050 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,094 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:36,096 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5049,3747,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:36,099 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,102 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,127 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:36,128 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5049,3747,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:36,133 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,140 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,178 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:36,180 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5049,3747,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:36,183 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,184 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,212 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:36,213 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5049,3747,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:36,216 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,217 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,262 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:36,264 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5049,3747,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:36,267 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,268 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,293 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:36,294 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5082,3680,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:36,297 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,298 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,327 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:36,328 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5082,3680,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:36,330 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,332 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,394 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:36,395 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5095,3654,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:36,398 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,399 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,429 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-11-23 21:15:36,430 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5099,3646,798),dir:(44,-90,0),spd:300
+2021-11-23 21:15:36,433 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,434 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,478 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:36,479 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:36,482 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,483 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,511 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-11-23 21:15:36,513 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:Idle Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:36,515 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,516 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,561 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:36,562 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:36,564 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,565 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,594 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:36,595 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:36,601 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,602 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,645 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:36,646 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:36,649 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,650 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,679 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:36,680 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:36,683 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,684 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,730 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:36,731 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:36,734 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,736 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,761 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:36,762 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:36,765 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,766 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,810 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:36,811 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:36,814 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,815 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,861 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:36,863 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:36,868 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,870 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,894 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:36,895 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:36,900 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,901 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,945 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:36,946 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:36,949 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:36,951 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:36,997 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:36,998 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:37,001 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:37,003 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:37,030 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:37,031 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:37,038 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:37,039 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:37,081 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:37,082 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:37,085 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:37,086 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:37,111 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:37,112 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:37,118 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:37,120 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:37,143 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:37,146 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:37,147 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:37,147 [12] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:37,195 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:37,196 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:37,199 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:37,201 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:37,228 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:37,229 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:37,232 [6] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:37,233 [6] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:37,278 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:37,280 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:37,283 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:37,286 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:37,311 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:37,311 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:37,318 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:37,319 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:37,343 [23] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-11-23 21:15:37,344 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:2:大法 Entity.Id:10 Evt:None Entity:(10:pos:(5101,3642,798),dir:(44,-90,0),spd:0
+2021-11-23 21:15:37,350 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:37,351 [10] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:37,470 [23] [INFO ] [GameServer] ：CharacterLeave: characterID:2:大法
+2021-11-23 21:15:37,472 [23] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:2
+2021-11-23 21:15:37,474 [23] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:大法 : Map:1 Character:2:大法
+2021-11-23 21:15:37,476 [23] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:大法 : Map:1 Character:2:大法
+2021-11-23 21:15:37,477 [23] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-23 21:15:37,478 [23] [INFO ] [GameServer] ：PostProcess > FriendManager : characterID:1:大法
+2021-11-23 21:15:37,480 [23] [INFO ] [GameServer] ：1:大法 GetFriendInfo: 2:大法 Status:0
+2021-11-23 21:15:37,481 [23] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637672404.08306<1637672404.08306
+2021-11-23 21:15:37,482 [23] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-23 21:15:39,621 [25] [INFO ] [GameServer] ：CharacterLeave: characterID:1:大法
+2021-11-23 21:15:39,622 [25] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2021-11-23 21:15:39,623 [25] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:大法 : Map:1 Character:1:大法
+2021-11-23 21:15:39,625 [25] [WARN ] [GameServer] ：Client[] Disconnected

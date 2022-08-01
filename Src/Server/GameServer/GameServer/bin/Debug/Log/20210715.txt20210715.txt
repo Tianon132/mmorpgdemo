@@ -1,0 +1,8 @@
+
+2021-07-15 21:21:55,526 [1] [INFO ] [GameServer] ：Game Server Init
+2021-07-15 21:21:55,919 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-07-15 21:21:56,301 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-07-15 21:21:56,313 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-07-15 21:21:56,328 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-07-15 21:21:56,329 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-07-15 21:21:56,331 [1] [WARN ] [GameServer] ：Starting Listener...

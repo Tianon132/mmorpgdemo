@@ -1,0 +1,392 @@
+
+2021-08-07 00:05:14,020 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-07 00:10:28,176 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:始 Map:1
+2021-08-07 00:10:28,178 [5] [INFO ] [GameServer] ：HasItem:[1]True
+2021-08-07 00:10:28,179 [5] [INFO ] [GameServer] ：[1]UseItem[1:ID:1,Count:200]
+2021-08-07 00:10:28,179 [5] [INFO ] [GameServer] ：Item:[1]ID:1,Count:200
+2021-08-07 00:10:28,192 [5] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:2
+2021-08-07 19:27:03,823 [1] [INFO ] [GameServer] ：Game Server Init
+2021-08-07 19:27:05,940 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-08-07 19:27:06,665 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-08-07 19:27:06,673 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-08-07 19:27:06,674 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-08-07 19:27:06,675 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-08-07 19:27:06,676 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-08-07 19:27:06,759 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 19:27:06,759 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 19:27:06,759 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 19:27:06,759 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 19:27:06,759 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 19:27:06,759 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 19:27:06,759 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 19:27:06,759 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 19:27:06,864 [1] [WARN ] [GameServer] ：NetService Started
+2021-08-07 19:27:07,136 [3] [WARN ] [GameServer] ：Client[127.0.0.1:49786]] Connected
+2021-08-07 19:27:07,382 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 19:27:07,690 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-08-07 19:27:18,386 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-07 19:27:18,391 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:始 Map:1
+2021-08-07 19:27:18,607 [5] [INFO ] [GameServer] ：HasItem:[1]True
+2021-08-07 19:27:18,609 [5] [INFO ] [GameServer] ：[1]UseItem[1:ID:1,Count:200]
+2021-08-07 19:27:18,610 [5] [INFO ] [GameServer] ：Item:[1]ID:1,Count:200
+2021-08-07 19:27:18,624 [5] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-08-07 19:27:24,491 [3] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2021-08-07 19:27:24,495 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-08-07 21:18:18,056 [1] [INFO ] [GameServer] ：Game Server Init
+2021-08-07 21:18:19,458 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-08-07 21:18:19,928 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-08-07 21:18:19,933 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-08-07 21:18:19,934 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-08-07 21:18:19,934 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-08-07 21:18:19,935 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-08-07 21:18:20,069 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 21:18:20,070 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 21:18:20,070 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 21:18:20,070 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 21:18:20,072 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 21:18:20,073 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 21:18:20,073 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 21:18:20,075 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 21:18:20,169 [1] [WARN ] [GameServer] ：NetService Started
+2021-08-07 21:22:33,214 [3] [WARN ] [GameServer] ：Client[127.0.0.1:50493]] Connected
+2021-08-07 21:22:33,336 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 21:22:33,654 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-08-07 21:24:00,399 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-07 21:24:00,405 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:始 Map:1
+2021-08-07 21:24:00,548 [5] [INFO ] [GameServer] ：HasItem:[1]True
+2021-08-07 21:24:00,550 [5] [INFO ] [GameServer] ：[1]UseItem[1:ID:1,Count:200]
+2021-08-07 21:24:00,551 [5] [INFO ] [GameServer] ：Item:[1]ID:1,Count:200
+2021-08-07 21:24:00,563 [5] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-08-07 21:26:18,715 [3] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2021-08-07 21:26:18,723 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-08-07 21:26:50,566 [3] [WARN ] [GameServer] ：Client[127.0.0.1:50614]] Connected
+2021-08-07 21:26:50,761 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 21:26:50,762 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-08-07 21:27:33,511 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-07 21:27:33,514 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:始 Map:1
+2021-08-07 21:27:33,519 [5] [INFO ] [GameServer] ：HasItem:[1]True
+2021-08-07 21:27:33,521 [5] [INFO ] [GameServer] ：[1]UseItem[1:ID:1,Count:200]
+2021-08-07 21:27:33,524 [5] [INFO ] [GameServer] ：Item:[1]ID:1,Count:200
+2021-08-07 21:27:33,529 [5] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:2
+2021-08-07 21:29:45,618 [17] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:2
+2021-08-07 21:29:45,619 [17] [WARN ] [GameServer] ：Client[] Disconnected
+2021-08-07 21:30:29,702 [23] [WARN ] [GameServer] ：Client[127.0.0.1:50667]] Connected
+2021-08-07 21:30:29,820 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 21:30:29,824 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:2  Pass:2
+2021-08-07 21:30:39,321 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 21:30:39,321 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2  Pass:2
+2021-08-07 21:30:44,465 [25] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 21:30:44,471 [5] [INFO ] [GameServer] ：UserRegisterRequest: Name:22  Class:Archer
+2021-08-07 21:30:51,401 [26] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-07 21:30:51,403 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:22 Map:1
+2021-08-07 21:30:51,404 [5] [INFO ] [GameServer] ：HasItem:[1]False
+2021-08-07 21:30:51,407 [5] [INFO ] [GameServer] ：[2]AddItem[ID:1,Count:200] addCount:200
+2021-08-07 21:30:51,679 [5] [INFO ] [GameServer] ：[2]AddItem[ID:2,Count:100] addCount:100
+2021-08-07 21:30:52,922 [5] [ERROR] [GameServer] ：Message handler exception:, 在上一个异步操作完成前已在此上下文上开始了第二个操作。请使用“await”以确保在此上下文上调用其他方法前所有异步操作均已完成。任何实例成员均不保证是线程安全的。, EntityFramework,    在 System.Data.Entity.Internal.ThrowingMonitor.EnsureNotEntered()
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesAsync(SaveOptions options, CancellationToken cancellationToken)
+   在 System.Data.Entity.Internal.InternalContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.DbContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.DbContext.SaveChangesAsync()
+   在 GameServer.Services.DBService.Save() 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Services\DBService.cs:行号 27
+   在 GameServer.Managers.ItemManager.AddItem(Int32 itemId, Int32 count) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Managers\ItemManager.cs:行号 85
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 187
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\2021\mmorpg\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-08-07 21:50:18,780 [1] [INFO ] [GameServer] ：Game Server Init
+2021-08-07 21:50:19,457 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-08-07 21:50:19,981 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-08-07 21:50:19,985 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-08-07 21:50:19,986 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-08-07 21:50:19,987 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-08-07 21:50:19,988 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-08-07 21:50:20,041 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 21:50:20,043 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 21:50:20,044 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 21:50:20,045 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 21:50:20,045 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 21:50:20,045 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 21:50:20,048 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 21:50:20,051 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 21:50:20,148 [1] [WARN ] [GameServer] ：NetService Started
+2021-08-07 21:50:34,864 [3] [WARN ] [GameServer] ：Client[127.0.0.1:61252]] Connected
+2021-08-07 21:50:34,956 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 21:50:35,107 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-08-07 21:50:40,751 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-07 21:50:40,754 [6] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:始 Map:1
+2021-08-07 21:50:40,850 [6] [INFO ] [GameServer] ：HasItem:[1]True
+2021-08-07 21:50:40,851 [6] [INFO ] [GameServer] ：[1]UseItem[1:ID:1,Count:200]
+2021-08-07 21:50:40,852 [6] [INFO ] [GameServer] ：Item:[1]ID:1,Count:200
+2021-08-07 21:50:40,859 [6] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-08-07 21:50:52,911 [3] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2021-08-07 21:50:52,913 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-08-07 21:54:16,264 [3] [WARN ] [GameServer] ：Client[127.0.0.1:61417]] Connected
+2021-08-07 21:54:16,332 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 21:54:16,333 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-08-07 21:54:18,529 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-07 21:54:18,529 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:始 Map:1
+2021-08-07 21:54:18,531 [5] [INFO ] [GameServer] ：HasItem:[1]True
+2021-08-07 21:54:18,531 [5] [INFO ] [GameServer] ：[1]UseItem[1:ID:1,Count:200]
+2021-08-07 21:54:18,532 [5] [INFO ] [GameServer] ：Item:[1]ID:1,Count:200
+2021-08-07 21:54:18,533 [5] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:2
+2021-08-07 21:54:29,939 [13] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:2
+2021-08-07 21:54:29,940 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2021-08-07 21:55:09,670 [13] [WARN ] [GameServer] ：Client[127.0.0.1:61439]] Connected
+2021-08-07 21:55:09,746 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 21:55:09,747 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-08-07 21:55:12,134 [19] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-07 21:55:12,135 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:始 Map:1
+2021-08-07 21:55:12,135 [5] [INFO ] [GameServer] ：HasItem:[1]True
+2021-08-07 21:55:12,136 [5] [INFO ] [GameServer] ：[1]UseItem[1:ID:1,Count:200]
+2021-08-07 21:55:12,137 [5] [INFO ] [GameServer] ：Item:[1]ID:1,Count:200
+2021-08-07 21:55:12,138 [5] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:3
+2021-08-07 21:55:22,189 [13] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:3
+2021-08-07 21:55:22,189 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2021-08-07 21:55:50,115 [13] [WARN ] [GameServer] ：Client[127.0.0.1:61468]] Connected
+2021-08-07 21:55:50,200 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 21:55:50,202 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-08-07 21:55:52,493 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-07 21:55:52,494 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:始 Map:1
+2021-08-07 21:55:52,496 [5] [INFO ] [GameServer] ：HasItem:[1]True
+2021-08-07 21:55:52,496 [5] [INFO ] [GameServer] ：[1]UseItem[1:ID:1,Count:200]
+2021-08-07 21:55:52,498 [5] [INFO ] [GameServer] ：Item:[1]ID:1,Count:200
+2021-08-07 21:55:52,499 [5] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:4
+2021-08-07 22:01:04,228 [13] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:4
+2021-08-07 22:01:04,230 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2021-08-07 22:06:59,588 [1] [INFO ] [GameServer] ：Game Server Init
+2021-08-07 22:06:59,920 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-08-07 22:07:00,342 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-08-07 22:07:00,346 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-08-07 22:07:00,346 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-08-07 22:07:00,347 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-08-07 22:07:00,348 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-08-07 22:07:00,397 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:07:00,397 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:07:00,397 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:07:00,397 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:07:00,397 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:07:00,398 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:07:00,398 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:07:00,399 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:07:00,455 [1] [WARN ] [GameServer] ：NetService Started
+2021-08-07 22:07:24,691 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55559]] Connected
+2021-08-07 22:07:24,793 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 22:07:24,981 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-08-07 22:07:32,527 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-07 22:07:32,535 [6] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:始 Map:1
+2021-08-07 22:07:32,687 [6] [INFO ] [GameServer] ：HasItem:[1]True
+2021-08-07 22:07:32,689 [6] [INFO ] [GameServer] ：[1]UseItem[1:ID:1,Count:200]
+2021-08-07 22:07:32,690 [6] [INFO ] [GameServer] ：Item:[1]ID:1,Count:200
+2021-08-07 22:07:32,706 [6] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-08-07 22:08:16,365 [13] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2021-08-07 22:08:16,372 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2021-08-07 22:08:34,334 [13] [WARN ] [GameServer] ：Client[127.0.0.1:53026]] Connected
+2021-08-07 22:08:34,471 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 22:08:34,475 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:1  Pass:1
+2021-08-07 22:08:41,170 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 22:08:41,171 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:2  Pass:2
+2021-08-07 22:08:44,813 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 22:08:44,814 [6] [INFO ] [GameServer] ：UserRegisterRequest: User:3  Pass:3
+2021-08-07 22:08:52,003 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 22:08:52,004 [5] [INFO ] [GameServer] ：UserLoginRequest: User:3  Pass:3
+2021-08-07 22:09:01,746 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2021-08-07 22:09:01,755 [5] [INFO ] [GameServer] ：UserRegisterRequest: Name:3  Class:Warrior
+2021-08-07 22:09:03,674 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-07 22:09:03,676 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:3:3 Map:1
+2021-08-07 22:09:03,678 [5] [INFO ] [GameServer] ：HasItem:[1]False
+2021-08-07 22:09:03,682 [5] [INFO ] [GameServer] ：[3]AddItem[ID:1,Count:200] addCount:200
+2021-08-07 22:09:03,952 [5] [INFO ] [GameServer] ：[3]AddItem[ID:2,Count:100] addCount:100
+2021-08-07 22:09:04,064 [5] [ERROR] [GameServer] ：Message handler exception:, 在上一个异步操作完成前已在此上下文上开始了第二个操作。请使用“await”以确保在此上下文上调用其他方法前所有异步操作均已完成。任何实例成员均不保证是线程安全的。, EntityFramework,    在 System.Data.Entity.Internal.ThrowingMonitor.EnsureNotEntered()
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesAsync(SaveOptions options, CancellationToken cancellationToken)
+   在 System.Data.Entity.Internal.InternalContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.DbContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.DbContext.SaveChangesAsync()
+   在 GameServer.Services.DBService.Save() 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Services\DBService.cs:行号 27
+   在 GameServer.Managers.ItemManager.AddItem(Int32 itemId, Int32 count) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Managers\ItemManager.cs:行号 85
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 187
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\2021\mmorpg\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-08-07 22:19:59,309 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2021-08-07 22:20:11,384 [1] [INFO ] [GameServer] ：Game Server Init
+2021-08-07 22:20:11,987 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-08-07 22:20:12,555 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-08-07 22:20:12,559 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-08-07 22:20:12,560 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-08-07 22:20:12,560 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-08-07 22:20:12,562 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-08-07 22:20:12,581 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:20:12,676 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:20:12,678 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:20:12,678 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:20:12,684 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:20:12,684 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:20:12,688 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:20:12,692 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:20:12,788 [1] [WARN ] [GameServer] ：NetService Started
+2021-08-07 22:20:24,309 [3] [WARN ] [GameServer] ：Client[127.0.0.1:60184]] Connected
+2021-08-07 22:20:24,428 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 22:20:24,697 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:4  Pass:4
+2021-08-07 22:20:29,690 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 22:20:29,701 [6] [INFO ] [GameServer] ：UserLoginRequest: User:4  Pass:4
+2021-08-07 22:20:33,942 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 22:20:33,944 [5] [INFO ] [GameServer] ：UserLoginRequest: User:4  Pass:4
+2021-08-07 22:20:40,632 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2021-08-07 22:20:40,642 [6] [INFO ] [GameServer] ：UserRegisterRequest: Name:4  Class:Wizard
+2021-08-07 22:20:42,567 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-07 22:20:42,577 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:4:4 Map:1
+2021-08-07 22:20:42,598 [5] [INFO ] [GameServer] ：HasItem:[1]False
+2021-08-07 22:20:42,603 [5] [INFO ] [GameServer] ：[4]AddItem[ID:1,Count:200] addCount:200
+2021-08-07 22:20:43,176 [5] [INFO ] [GameServer] ：[4]AddItem[ID:2,Count:100] addCount:100
+2021-08-07 22:20:43,384 [5] [ERROR] [GameServer] ：Message handler exception:, 在上一个异步操作完成前已在此上下文上开始了第二个操作。请使用“await”以确保在此上下文上调用其他方法前所有异步操作均已完成。任何实例成员均不保证是线程安全的。, EntityFramework,    在 System.Data.Entity.Internal.ThrowingMonitor.EnsureNotEntered()
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesAsync(SaveOptions options, CancellationToken cancellationToken)
+   在 System.Data.Entity.Internal.InternalContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.DbContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.DbContext.SaveChangesAsync()
+   在 GameServer.Services.DBService.Save() 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Services\DBService.cs:行号 27
+   在 GameServer.Managers.ItemManager.AddItem(Int32 itemId, Int32 count) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Managers\ItemManager.cs:行号 85
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 187
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\2021\mmorpg\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-08-07 22:21:37,411 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-08-07 22:22:55,287 [17] [WARN ] [GameServer] ：Client[127.0.0.1:64646]] Connected
+2021-08-07 22:22:55,517 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 22:22:55,520 [5] [INFO ] [GameServer] ：UserRegisterRequest: User:5  Pass:5
+2021-08-07 22:23:06,183 [1] [INFO ] [GameServer] ：Game Server Init
+2021-08-07 22:23:06,873 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-08-07 22:23:07,557 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-08-07 22:23:07,562 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-08-07 22:23:07,562 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-08-07 22:23:07,563 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-08-07 22:23:07,565 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-08-07 22:23:07,688 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:23:07,689 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:23:07,692 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:23:07,693 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:23:07,693 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:23:07,699 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:23:07,699 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:23:07,704 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 22:23:07,800 [1] [WARN ] [GameServer] ：NetService Started
+2021-08-07 22:23:11,102 [3] [WARN ] [GameServer] ：Client[127.0.0.1:64651]] Connected
+2021-08-07 22:23:11,111 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 22:23:11,454 [5] [INFO ] [GameServer] ：UserLoginRequest: User:5  Pass:5
+2021-08-07 22:23:22,981 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:13
+2021-08-07 22:23:22,995 [6] [INFO ] [GameServer] ：UserRegisterRequest: Name:5  Class:Archer
+2021-08-07 22:23:26,559 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-08-07 22:23:26,571 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:5:5 Map:1
+2021-08-07 22:23:26,591 [5] [INFO ] [GameServer] ：HasItem:[1]False
+2021-08-07 22:23:26,596 [5] [INFO ] [GameServer] ：[5]AddItem[ID:1,Count:200] addCount:200
+2021-08-07 22:23:27,114 [5] [INFO ] [GameServer] ：[5]AddItem[ID:2,Count:100] addCount:100
+2021-08-07 22:23:27,293 [5] [ERROR] [GameServer] ：Message handler exception:, 在上一个异步操作完成前已在此上下文上开始了第二个操作。请使用“await”以确保在此上下文上调用其他方法前所有异步操作均已完成。任何实例成员均不保证是线程安全的。, EntityFramework,    在 System.Data.Entity.Internal.ThrowingMonitor.EnsureNotEntered()
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesAsync(SaveOptions options, CancellationToken cancellationToken)
+   在 System.Data.Entity.Internal.InternalContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.DbContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.DbContext.SaveChangesAsync()
+   在 GameServer.Services.DBService.Save() 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Services\DBService.cs:行号 27
+   在 GameServer.Managers.ItemManager.AddItem(Int32 itemId, Int32 count) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Managers\ItemManager.cs:行号 85
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 187
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\2021\mmorpg\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-08-07 23:42:26,343 [1] [INFO ] [GameServer] ：Game Server Init
+2021-08-07 23:42:27,145 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-08-07 23:42:27,759 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-08-07 23:42:27,768 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-08-07 23:42:27,769 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-08-07 23:42:27,769 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-08-07 23:42:27,770 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-08-07 23:42:28,153 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:42:28,153 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:42:28,158 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:42:28,159 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:42:28,161 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:42:28,161 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:42:28,163 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:42:28,164 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:42:28,264 [1] [WARN ] [GameServer] ：NetService Started
+2021-08-07 23:42:32,631 [3] [WARN ] [GameServer] ：Client[127.0.0.1:52038]] Connected
+2021-08-07 23:42:32,765 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 23:42:33,169 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-08-07 23:43:58,295 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2021-08-07 23:43:58,304 [5] [INFO ] [GameServer] ：UserRegisterRequest: Name:123  Class:Warrior
+2021-08-07 23:44:02,891 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-08-07 23:44:02,896 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:6:123 Map:1
+2021-08-07 23:44:02,911 [5] [INFO ] [GameServer] ：HasItem:[1]False
+2021-08-07 23:44:02,915 [5] [INFO ] [GameServer] ：[6]AddItem[ID:1,Count:200] addCount:200
+2021-08-07 23:44:03,245 [5] [INFO ] [GameServer] ：[6]AddItem[ID:2,Count:100] addCount:100
+2021-08-07 23:44:03,488 [5] [ERROR] [GameServer] ：Message handler exception:, 在上一个异步操作完成前已在此上下文上开始了第二个操作。请使用“await”以确保在此上下文上调用其他方法前所有异步操作均已完成。任何实例成员均不保证是线程安全的。, EntityFramework,    在 System.Data.Entity.Internal.ThrowingMonitor.EnsureNotEntered()
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesAsync(SaveOptions options, CancellationToken cancellationToken)
+   在 System.Data.Entity.Internal.InternalContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.DbContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.DbContext.SaveChangesAsync()
+   在 GameServer.Services.DBService.Save() 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Services\DBService.cs:行号 27
+   在 GameServer.Managers.ItemManager.AddItem(Int32 itemId, Int32 count) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Managers\ItemManager.cs:行号 85
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 188
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\2021\mmorpg\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-08-07 23:46:37,598 [1] [INFO ] [GameServer] ：Game Server Init
+2021-08-07 23:46:38,098 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-08-07 23:46:38,607 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-08-07 23:46:38,611 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-08-07 23:46:38,612 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-08-07 23:46:38,612 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-08-07 23:46:38,613 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-08-07 23:46:38,751 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:46:38,752 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:46:38,753 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:46:38,754 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:46:38,755 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:46:38,757 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:46:38,758 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:46:38,758 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:46:38,829 [1] [WARN ] [GameServer] ：NetService Started
+2021-08-07 23:46:42,190 [3] [WARN ] [GameServer] ：Client[127.0.0.1:52064]] Connected
+2021-08-07 23:46:42,275 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 23:46:42,427 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-08-07 23:46:51,441 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:16
+2021-08-07 23:46:51,445 [5] [INFO ] [GameServer] ：UserRegisterRequest: Name:1234  Class:Warrior
+2021-08-07 23:46:54,555 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-08-07 23:46:54,558 [6] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:7:1234 Map:1
+2021-08-07 23:46:54,565 [6] [INFO ] [GameServer] ：HasItem:[1]False
+2021-08-07 23:46:54,590 [6] [INFO ] [GameServer] ：[7]AddItem[ID:1,Count:200] addCount:200
+2021-08-07 23:46:54,751 [6] [INFO ] [GameServer] ：[7]AddItem[ID:2,Count:100] addCount:100
+2021-08-07 23:46:54,807 [6] [ERROR] [GameServer] ：Message handler exception:, 在上一个异步操作完成前已在此上下文上开始了第二个操作。请使用“await”以确保在此上下文上调用其他方法前所有异步操作均已完成。任何实例成员均不保证是线程安全的。, EntityFramework,    在 System.Data.Entity.Internal.ThrowingMonitor.EnsureNotEntered()
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesAsync(SaveOptions options, CancellationToken cancellationToken)
+   在 System.Data.Entity.Internal.InternalContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.Internal.LazyInternalContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.DbContext.SaveChangesAsync(CancellationToken cancellationToken)
+   在 System.Data.Entity.DbContext.SaveChangesAsync()
+   在 GameServer.Services.DBService.Save() 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Services\DBService.cs:行号 27
+   在 GameServer.Managers.ItemManager.AddItem(Int32 itemId, Int32 count) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Managers\ItemManager.cs:行号 86
+   在 GameServer.Services.UserService.OnGameEnter(NetConnection`1 sender, UserGameEnterRequest request) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Services\UserService.cs:行号 186
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\2021\mmorpg\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-08-07 23:47:05,909 [14] [WARN ] [GameServer] ：Client[] Disconnected
+2021-08-07 23:47:33,821 [1] [INFO ] [GameServer] ：Game Server Init
+2021-08-07 23:47:34,295 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-08-07 23:47:34,697 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-08-07 23:47:34,702 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-08-07 23:47:34,703 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-08-07 23:47:34,703 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-08-07 23:47:34,704 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-08-07 23:47:34,714 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:47:34,739 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:47:34,741 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:47:34,742 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:47:34,744 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:47:34,749 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:47:34,752 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:47:34,753 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-07 23:47:34,824 [1] [WARN ] [GameServer] ：NetService Started
+2021-08-07 23:47:54,062 [3] [WARN ] [GameServer] ：Client[127.0.0.1:52084]] Connected
+2021-08-07 23:47:54,146 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-07 23:47:54,313 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-08-07 23:48:04,063 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2021-08-07 23:48:04,069 [6] [INFO ] [GameServer] ：UserRegisterRequest: Name:12345  Class:Warrior
+2021-08-07 23:48:10,696 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-08-07 23:48:10,699 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:8:12345 Map:1
+2021-08-07 23:48:10,710 [5] [INFO ] [GameServer] ：HasItem:[1]False
+2021-08-07 23:48:10,740 [5] [INFO ] [GameServer] ：[8]AddItem[ID:1,Count:200] addCount:200
+2021-08-07 23:48:10,785 [5] [INFO ] [GameServer] ：[8]AddItem[ID:2,Count:100] addCount:100
+2021-08-07 23:48:10,805 [5] [INFO ] [GameServer] ：[8]AddItem[ID:3,Count:30] addCount:30
+2021-08-07 23:48:10,811 [5] [INFO ] [GameServer] ：[8]AddItem[ID:4,Count:120] addCount:120
+2021-08-07 23:48:10,815 [5] [INFO ] [GameServer] ：[8]UseItem[1:ID:1,Count:200]
+2021-08-07 23:48:10,816 [5] [INFO ] [GameServer] ：Item:[1]ID:1,Count:200
+2021-08-07 23:48:10,831 [5] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1

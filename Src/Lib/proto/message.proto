@@ -1,0 +1,766 @@
+syntax = "proto3";
+
+package SkillBridge.Message;
+
+option csharp_namespace = "SkillBridge.Message";
+option cc_enable_arenas = true;
+
+////////////////////////////////////////////////////////////////
+//
+//  Basic Defines
+//
+////////////////////////////////////////////////////////////////
+enum RESULT
+{
+	SUCCESS = 0;
+	FAILED = 1;
+}
+
+enum CHARACTER_TYPE
+{
+	Player = 0;
+	NPC = 1;
+	Monster = 2;
+}
+
+enum CHARACTER_CLASS
+{
+	NONE = 0;
+	WARRIOR = 1;
+	WIZARD = 2;
+	ARCHER = 3;
+}
+
+enum CHARACTER_STATE
+{
+	IDLE = 0;
+	MOVE = 1;
+}
+
+enum ENTITY_EVENT
+{
+	NONE = 0;
+	IDLE = 1;
+	MOVE_FWD = 2;
+	MOVE_BACK = 3;
+	JUMP = 4;
+	RIDE = 5;	//事件-骑马
+}
+
+enum ITEM_TYPE
+{
+	NORMAL = 0;
+	MATERIAL = 1;
+	TASK = 2;  	//任务道具
+	EQUIP = 3;	//装备
+	RIDE = 4;	//坐骑
+}
+
+//装备槽位
+enum EQUIP_SLOT			
+{
+	WEAPON			= 0;
+	ACCESSORY		= 1;
+	HELMET			= 2;//头盔
+	CHEST			= 3;//胸甲
+	SHOULDER		= 4;//护肩
+	PANTS			= 5;//裤子
+	BOOTS			= 6;//靴子
+	SLOT_MAX		= 7;
+}
+
+message NUserInfo {
+	int32 id = 1;
+	NPlayerInfo player = 2;
+}
+
+message NPlayerInfo {
+	int32 id = 1;
+	repeated NCharacterInfo characters = 2;
+}
+
+message NCharacterInfo {
+	int32 id = 1;	//db_id  数据库中的唯一角色ID
+	int32 config_id = 2;	//config id  如果有配置表 配置表中的Id（职业Tid）
+	int32 entity_id = 3;	//entity_id	 实体ID
+
+	string name = 4;
+	CHARACTER_TYPE type = 5;	//玩家、NPC、怪物
+	CHARACTER_CLASS class = 6;	//射手、法师、战士
+	int32 level = 7;
+
+	int32 mapId = 8;
+	NEntity entity = 9;	//实体位置等具体信息
+	int64 gold = 10;
+
+	repeated NItemInfo Items = 11;
+	NBagInfo Bag = 12;//背包数据
+	bytes Equips = 13;//存储装备数据
+	repeated NQuestInfo quests = 14;//repeated表示可重复，这里是任务可重复
+	repeated NFriendInfo friends = 15;	//好友系统
+
+	NGuildInfo guild = 16;//公会  角色附一下值，方便知道加入了公会
+
+	int32 ride = 17;//坐骑
+}
+
+message NItemInfo
+{
+	int32 id = 1;
+	int32 count = 2;
+}
+
+message NVector3
+{
+	int32 x = 1;
+	int32 y = 2;
+	int32 z = 3;
+}
+
+message NBagInfo//背包信息
+{
+	int32 Unlocked = 1;
+	bytes Items = 2;
+}
+
+//状态系统设计，为了方便分开传回购买成功的消息，一次搞定
+enum STATUS_ACTION
+{
+	UPDATE = 0;
+	ADD = 1;
+	DELETE = 2;
+}
+
+enum STATUS_TYPE
+{
+	MONEY = 0;
+	EXP = 1;
+	SKILL_POINT = 2;
+	ITEM = 3;
+}
+
+enum STATUS_SOURCE//还没写完，还在调整
+{
+	UPDATE = 0;
+	ADD = 1;
+	DELETE = 2;
+}
+
+message NStatus
+{
+	STATUS_TYPE type = 1;
+	STATUS_ACTION action = 2;
+	int32 id = 3;
+	int32 value = 4;
+}
+
+message StatusNotify//状态通知
+{
+	repeated NStatus status = 1;
+}
+
+////////////////////////////////////////////////////////////////
+//
+//  Entities
+//
+////////////////////////////////////////////////////////////////
+
+
+message NEntity {
+	int32 id = 1;
+	NVector3 position = 2;
+	NVector3 direction = 3;
+	int32 speed = 4;
+}
+
+message NEntitySync {
+	int32 id = 1;
+	ENTITY_EVENT event = 2;
+	NEntity entity = 3;
+	int32 param = 4;    //坐骑系统-添加参数
+}
+
+
+
+////////////////////////////////////////////////////////////////
+//
+//  Messages
+//
+////////////////////////////////////////////////////////////////
+
+message NetMessage{
+	NetMessageRequest Request = 1;
+	NetMessageResponse Response = 2;
+}
+
+message NetMessageRequest{
+	UserRegisterRequest userRegister = 1;
+	UserLoginRequest userLogin = 2;
+	UserCreateCharacterRequest createChar = 3;
+	UserGameEnterRequest gameEnter = 4;
+	UserGameLeaveRequest gameLeave = 5;
+	
+	MapCharacterEnterRequest mapCharacterEnter = 6;
+
+	MapEntitySyncRequest mapEntitySync = 8;
+	MapTeleportRequest mapTeleport = 9;
+
+	BagSaveRequest bagSaveRequest = 100;//背包请求  //之后弃用了，还未找到原因
+
+	ItemBuyRequest itemBuy = 10;//商店购买
+	ItemEquipRequest itemEquip = 11;
+
+	QuestListRequest questList = 12;
+	QuestAcceptRequest questAccept = 13;
+	QuestSubmitRequest questSubmit = 14;
+
+	//客户端 都要处理 - 好友系统
+	FriendAddRequest friendAddReq = 15;
+	FriendAddResponse friendAddRes = 16;//因为玩家纪要发起加好友的请求，玩家也要回应加好友的响应
+	FriendListRequest friendList = 17;
+	FriendRemoveRequest friendRemove = 18;
+
+	//组队系统
+	TeamInviteRequest teamInviteReq = 19;
+	TeamInviteResponse teamInviteRes = 20;
+	TeamInfoRequest teamInfo = 21;
+	TeamLeaveRequest teamLeave = 22;
+
+	//公会
+	GuildCreateRequest guildCreate = 23;
+	GuildJoinRequest guildjoinReq = 24;
+	GuildJoinResponse guildjoinRes = 25;
+	GUildRequest guild = 26;
+	GuildLeaveRequest guildLeave = 27;
+	GuildListRequest guildList = 28;
+	GuildAdminRequest guildAdmin = 29;
+
+	//聊天
+	ChatRequest chat = 30;
+}
+
+message NetMessageResponse{
+	UserRegisterResponse userRegister = 1;
+	UserLoginResponse userLogin = 2;
+	UserCreateCharacterResponse createChar = 3;
+	UserGameEnterResponse gameEnter = 4;
+	UserGameLeaveResponse gameLeave = 5;
+
+	MapCharacterEnterResponse mapCharacterEnter = 6;
+	MapCharacterLeaveResponse mapCharacterLeave = 7;
+
+	MapEntitySyncResponse mapEntitySync = 8;
+
+	BagSaveResponse bagSaveResponse = 9;//背包响应
+
+	ItemBuyResponse itemBuy = 10;
+	ItemEquipResponse itemEquip = 11;
+
+	StatusNotify statusNotify = 100;//添加状态协议
+
+	QuestListResponse questList = 12;
+	QuestAcceptResponse questAccept = 13;
+	QuestSubmitResponse questSubmit = 14;
+
+	//服务端 都要处理 -好友系统
+	FriendAddRequest friendAddReq = 15;
+	FriendAddResponse friendAddRes = 16;
+	FriendListResponse friendList = 17;
+	FriendRemoveResponse friendRemove = 18;
+
+	//组队系统
+	TeamInviteRequest teamInviteReq = 19;
+	TeamInviteResponse teamInviteRes = 20;
+	TeamInfoResponse teamInfo = 21;
+	TeamLeaveResponse teamLeave = 22;
+
+	//公会
+	GuildCreateResponse guildCreate = 23;
+	GuildJoinRequest guildjoinReq = 24;
+	GuildJoinResponse guildjoinRes = 25;
+	GUildResponse guild = 26;
+	GuildLeaveResponse guildLeave = 27;
+	GuildListResponse guildList = 28;
+	GuildAdminResponse guildAdmin = 29;
+
+	//聊天
+	ChatResponse chat = 30;
+}
+
+
+// User Protocol
+message UserLoginRequest {
+	string user = 1;
+	string passward = 2;
+}
+
+message UserLoginResponse {
+	RESULT result = 1;
+	string errormsg = 2;
+	NUserInfo userinfo = 3;
+}
+
+
+message UserRegisterRequest
+{
+	string user = 1;
+	string passward = 2;
+}
+
+message UserRegisterResponse {
+	RESULT result = 1;
+	string errormsg = 2;
+}
+
+message UserCreateCharacterRequest
+{
+	string name = 1;
+	CHARACTER_CLASS class = 2;
+}
+
+message UserCreateCharacterResponse {
+	RESULT result = 1;
+	string errormsg = 2;
+	repeated NCharacterInfo characters = 3;
+}
+
+message UserGameEnterRequest
+{
+	int32 characterIdx = 1;
+}
+
+message UserGameEnterResponse {
+	RESULT result = 1;
+	string errormsg = 2;
+	NCharacterInfo character = 3;
+}
+
+message UserGameLeaveRequest
+{
+}
+
+message UserGameLeaveResponse {
+	RESULT result = 1;
+	string errormsg = 2;
+}
+
+// Map Protocol
+message MapCharacterEnterRequest
+{
+	int32 mapId = 1;
+}
+
+message MapCharacterEnterResponse
+{
+	int32 mapId = 1;
+	repeated NCharacterInfo characters = 2;
+}
+
+message MapCharacterLeaveResponse
+{
+	int32 entityId = 1;
+}
+
+
+message MapEntitySyncRequest
+{
+    NEntitySync entitySync = 1;
+}
+
+
+message MapEntitySyncResponse
+{
+    repeated NEntitySync entitySyncs = 2;
+}
+
+message MapTeleportRequest
+{
+	int32 teleporterId = 1;
+}
+
+message ItemBuyRequest
+{
+	int32 shopId = 1;
+	int32 shopItemId = 2;
+}
+
+message ItemBuyResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+}
+
+//背包缓存
+message BagSaveRequest
+{
+	NBagInfo BagInfo = 1;
+}
+
+//背包
+message BagSaveResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+}
+
+message ItemEquipRequest
+{
+	int32 slot = 1;
+	int32 itemId = 2;
+	bool isEquip = 3;
+}
+
+message ItemEquipResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+}
+
+//Quest System
+
+enum QUEST_STATUS//任务状态
+{
+	IN_PROGRESS = 0;	//已接受，未完成
+	COMPLATED = 1;		//已完成，未提交
+	FINISHED = 2;		//已完成，已提交
+	FAILED = 3;			//已失败
+}
+
+enum QUEST_LIST_TYPE//任务列表类型，显示特定的任务类型
+{
+	ALL = 0;
+	IN_PROGRESS = 1;
+	FINISHED = 2;
+}
+
+message NQuestInfo//N交互的信息结构
+{
+	int32 quest_id = 1;			//任务id【该用户任务列表不断变化的暂时记录id】
+	int32 quest_gold = 2;		//唯一id【数据库的id】，防止重复出现一样的id
+	QUEST_STATUS status = 3;
+	repeated int32 targets = 4;	//目标：列表，可能是多个
+}
+
+message QuestListRequest//任务列表的请求与响应
+{
+	QUEST_LIST_TYPE listType = 1;	//默认是0，显示All所有的任务
+}
+
+message QuestListResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	repeated NQuestInfo quests = 3;
+}
+
+message QuestAcceptRequest//任务接受的请求与响应
+{
+	int32 quest_id = 1;
+}
+
+message QuestAcceptResponse
+{
+	 RESULT result = 1;
+	 string errormsg = 2;
+	 NQuestInfo quest = 3;//及时把接受任务的状态给回馈到
+}
+
+message QuestSubmitRequest//任务提交
+{
+	int32 quest_id = 1;
+}
+
+message QuestSubmitResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	NQuestInfo quest = 3;
+}
+
+message QuestAbandonRequest//放弃任务，一般是直接删掉任务即可
+{
+	int32 quest_id = 1;
+}
+
+message QuestAbandonResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+}
+
+//friend System好友系统
+message NFriendInfo
+{
+	int32 id = 1;
+	NCharacterInfo friendInfo = 2;
+	int32 status = 3;
+}
+
+message FriendAddRequest
+{
+	int32 from_id = 1;	//我是谁
+	string from_name = 2;
+	int32 to_id = 3;	//我加谁
+	string to_name = 4;
+}
+
+message FriendAddResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	FriendAddRequest request = 3;
+}
+
+message FriendListRequest
+{
+
+}
+
+message FriendListResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	repeated NFriendInfo friends = 3;
+}
+
+message FriendRemoveRequest
+{
+	int32 id = 1;
+	int32 friendId = 2;
+}
+
+message FriendRemoveResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	int32 id = 3;
+}
+
+//组队系统 Team System
+
+message NTeamInfo
+{
+	int32 id = 1;
+	int32 leader = 2;//队长
+	repeated NCharacterInfo members = 3;//队伍成员的列表
+}
+
+message TeamInviteRequest
+{
+	int32 team_id = 1;
+	int32 from_id = 2;
+	string from_name = 3;
+	int32 to_id = 4;
+	string to_name = 5;
+}
+
+message TeamInviteResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	TeamInviteRequest request = 3;
+}
+
+message TeamInfoRequest//暂时还没用到主动刷新队伍列表的功能
+{
+
+}
+
+message TeamInfoResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	NTeamInfo team = 3;
+}
+
+message TeamLeaveRequest
+{
+	int32 team_id = 1;
+	int32 characterId = 2;
+}
+
+message TeamLeaveResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	int32 characterId = 3;
+}
+
+//Guild System
+enum GUILD_TITLE
+{
+	NONE = 0;			//普通成员
+	PRESIDENT = 1;			//会长
+	VICE_PRESIDENT = 2;	//副会长
+}
+
+enum APPLY_RESULT//加入申请结果
+{
+	NONE = 0;		//未处理
+	ACCEPT = 1;			//接受
+	BEJECT = 2;		//拒绝
+}
+
+message NGuildInfo			//公会信息
+{
+	int32 id = 1;								//公会Id
+	string guild_name = 2;							//公会名称
+	int32 leaderId = 3;							//会长Id
+	string leaderName = 4;							//会长名称
+	string notice = 5;							//公会宗旨/通知公告
+	int32 memberCount = 6;							//公会人数
+	repeated NGuildMenmberInfo members = 7;		//成员列表
+	repeated NGuildApplyInfo applies = 8;			//申请加入信息
+	int64 createTime = 9;						//公会创建时间
+}
+
+message NGuildMenmberInfo	//公会成员信息
+{
+	int32 id = 1;				//Id
+	int32 characterId = 2;			//角色Id
+	GUILD_TITLE title = 3;		//职位
+	NCharacterInfo info = 4;		//角色信息
+	int64 joinTime = 5;			//加入时间
+	int64 lastTime = 6;				//上次在线
+	int32 status = 7;			//在线状态
+}
+
+//公会加入申请信息
+message NGuildApplyInfo
+{
+	int32 guild_id = 1;
+	int32 characterId = 2;
+	string name = 3;
+	int32 class = 4;
+	int32 level = 5;
+	APPLY_RESULT result = 6;
+}
+
+//创建公会
+message GuildCreateRequest
+{
+	string guild_name = 1;
+	string guild_notice = 2;
+}
+
+message GuildCreateResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	NGuildInfo guildInfo = 3;
+}
+
+//加入工会申请 [master -> server ->leader]
+message GuildJoinRequest
+{
+	NGuildApplyInfo apply = 1;
+}
+
+//加入会长申请响应 [server -> member]
+message GuildJoinResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	NGuildApplyInfo apply = 3;
+}
+
+//公会列表
+message GuildListRequest
+{
+
+}
+
+message GuildListResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	repeated NGuildInfo guilds= 3;
+}
+
+//公会信息-单个消息变动-后处理
+message GuildRequest
+{
+	NGuildInfo guildInfo = 1;
+}
+
+message GuildResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	NGuildInfo guildInfo = 3;
+}
+
+//离开公会信息
+message GuildLeaveRequest
+{
+
+}
+
+message GuildLeaveResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+}
+
+//公会【管理】
+enum GUILD_ADMIN_COMMAND
+{
+	KICKOUT = 1;	//踢人
+	PROMOTE = 2;	//晋升
+	DEPOST = 3;		//罢免
+	TRANSFER = 4;	//转让会长
+}
+
+message GuildAdminRequest
+{
+	GUILD_ADMIN_COMMAND command = 1;	//操作指令
+	int32 target = 2;					//公会成员
+}
+
+message GuildAdminResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	GuildAdminRequest command = 3;
+}
+
+//聊天
+enum CHAT_CHANNEL//2的n次方，通过1的位置可以判断 综合情况下 显示哪些频道 （比如0011，只显示本地和世界）
+{
+	ALL = -1;		//所有
+	LOCAL = 1;		//本地 0001
+	WORLD = 2;		//世界 0010
+	SYSTEM = 4;		//系统 0100
+	PRIVATE = 8;	//私聊 1000
+	TEAM = 16;		//队伍 0001 0000
+	GUILD = 32;		//公会 0010 0000
+}
+
+message ChatMessage
+{
+	CHAT_CHANNEL channel = 1;
+	int32 id = 2;
+	int32 from_id = 3;
+	string from_name = 4;
+	int32 to_id = 5;
+	string to_name = 6;
+	string message = 7;
+	double time = 8;
+}
+
+message ChatRequest
+{
+	ChatMessage message = 1;
+}
+
+message ChatResponse
+{
+	RESULT result = 1;
+	string errormsg = 2;
+	repeated ChatMessage localMessages = 3;
+	repeated ChatMessage worldMessages = 4;
+	repeated ChatMessage systemMessages = 5;
+	repeated ChatMessage privateMessages = 6;
+	repeated ChatMessage teamMessages = 7;
+	repeated ChatMessage guildMessages = 8;
+}

@@ -1,0 +1,14 @@
+D:\2021\mmorpg\Src\Lib\Common\bin\Debug\Common.dll
+D:\2021\mmorpg\Src\Lib\Common\bin\Debug\Common.pdb
+D:\2021\mmorpg\Src\Lib\Common\bin\Debug\log4net.dll
+D:\2021\mmorpg\Src\Lib\Common\bin\Debug\protobuf-net.dll
+D:\2021\mmorpg\Src\Lib\Common\bin\Debug\Protocol.dll
+D:\2021\mmorpg\Src\Lib\Common\bin\Debug\UnityEngine.dll
+D:\2021\mmorpg\Src\Lib\Common\bin\Debug\Protocol.pdb
+D:\2021\mmorpg\Src\Lib\Common\bin\Debug\log4net.xml
+D:\2021\mmorpg\Src\Lib\Common\bin\Debug\protobuf-net.xml
+D:\2021\mmorpg\Src\Lib\Common\obj\Debug\Common.csproj.AssemblyReference.cache
+D:\2021\mmorpg\Src\Lib\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\2021\mmorpg\Src\Lib\Common\obj\Debug\Common.csproj.CopyComplete
+D:\2021\mmorpg\Src\Lib\Common\obj\Debug\Common.dll
+D:\2021\mmorpg\Src\Lib\Common\obj\Debug\Common.pdb

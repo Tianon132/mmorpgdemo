@@ -1,0 +1,152 @@
+
+2021-11-26 17:34:42,402 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-26 17:34:43,442 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-26 17:34:44,034 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-11-26 17:34:44,042 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-11-26 17:34:44,043 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-11-26 17:34:44,043 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-11-26 17:34:47,676 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-26 17:34:47,688 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-26 17:34:47,688 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-26 17:34:47,689 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-26 17:34:47,689 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-26 17:34:47,688 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-26 17:34:47,689 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-26 17:34:47,689 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-26 17:34:47,689 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-26 17:34:47,802 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-26 17:34:48,274 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59919]] Connected
+2021-11-26 17:34:48,506 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-11-26 17:34:48,763 [6] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-11-26 17:34:53,746 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-26 17:34:53,750 [8] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:大法 Map:1
+2021-11-26 17:34:53,967 [8] [INFO ] [GameServer] ：1:大法 GetFriendInfo: 2:大法 Status:0
+2021-11-26 17:34:53,973 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-26 17:34:53,974 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 0<1637919287.67041
+2021-11-26 17:34:54,098 [8] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-11-26 17:34:54,100 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-26 17:34:54,100 [8] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637919287.67041<1637919287.67041
+2021-11-26 17:34:58,846 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:17
+2021-11-26 17:34:58,854 [7] [INFO ] [GameServer] ：OnChat: :character:1:Channel:Local Message:11
+2021-11-26 17:34:58,856 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-26 17:34:58,858 [7] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637919287.67041<1637919287.67041
+2021-11-26 17:35:08,251 [3] [INFO ] [GameServer] ：CharacterLeave: characterID:1:大法
+2021-11-26 17:35:08,256 [3] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2021-11-26 17:35:08,259 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:大法 : Map:1 Character:1:大法
+2021-11-26 17:35:08,261 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-26 17:35:20,613 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59943]] Connected
+2021-11-26 17:35:20,720 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-11-26 17:35:20,722 [11] [INFO ] [GameServer] ：UserLoginRequest: User:2  Pass:2
+2021-11-26 17:35:22,723 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-26 17:35:22,724 [9] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:大法 Map:1
+2021-11-26 17:35:22,743 [9] [INFO ] [GameServer] ：2:大法 GetFriendInfo: 1:大法 Status:0
+2021-11-26 17:35:22,744 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-26 17:35:22,745 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 0<1637919287.67041
+2021-11-26 17:35:22,746 [9] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:2
+2021-11-26 17:35:22,747 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:2:大法
+2021-11-26 17:35:22,748 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:2:大法 1637919287.67041<1637919287.67041
+2021-11-26 17:35:47,916 [5] [INFO ] [GameServer] ：Map:[2] Spawn[1: Mon:1001,Lv:1] At Point:1
+2021-11-26 17:35:47,921 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:3
+2021-11-26 17:35:47,922 [5] [INFO ] [GameServer] ：Map:[2] Spawn[2: Mon:1002,Lv:1] At Point:2
+2021-11-26 17:35:47,924 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:4
+2021-11-26 17:35:47,925 [5] [INFO ] [GameServer] ：Map:[2] Spawn[3: Mon:1003,Lv:1] At Point:3
+2021-11-26 17:35:47,926 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:5
+2021-11-26 17:35:47,927 [5] [INFO ] [GameServer] ：Map:[2] Spawn[4: Mon:1005,Lv:1] At Point:4
+2021-11-26 17:35:47,928 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:6
+2021-11-26 17:35:47,929 [5] [INFO ] [GameServer] ：Map:[3] Spawn[1: Mon:1001,Lv:1] At Point:1
+2021-11-26 17:35:47,930 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:7
+2021-11-26 17:35:47,936 [5] [INFO ] [GameServer] ：Map:[3] Spawn[2: Mon:1002,Lv:1] At Point:2
+2021-11-26 17:35:47,938 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:8
+2021-11-26 17:35:47,939 [5] [INFO ] [GameServer] ：Map:[3] Spawn[3: Mon:1003,Lv:1] At Point:3
+2021-11-26 17:35:47,940 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:9
+2021-11-26 17:35:47,941 [5] [INFO ] [GameServer] ：Map:[3] Spawn[4: Mon:1005,Lv:1] At Point:4
+2021-11-26 17:35:47,942 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:10
+2021-11-26 17:36:41,766 [3] [INFO ] [GameServer] ：CharacterLeave: characterID:2:大法
+2021-11-26 17:36:41,767 [3] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:2
+2021-11-26 17:36:41,768 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 2:大法 : Map:1 Character:2:大法
+2021-11-26 17:36:41,770 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-26 17:37:08,947 [15] [WARN ] [GameServer] ：Client[127.0.0.1:59988]] Connected
+2021-11-26 17:37:09,105 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-11-26 17:37:09,106 [12] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-11-26 17:37:20,066 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-11-26 17:37:20,068 [10] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:3:1111 Map:1
+2021-11-26 17:37:20,081 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:1111
+2021-11-26 17:37:20,082 [10] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:3
+2021-11-26 17:37:20,084 [10] [INFO ] [GameServer] ：PostProcess > Character: characterID:3:1111
+2021-11-26 20:16:32,076 [1] [INFO ] [GameServer] ：Game Server Init
+2021-11-26 20:16:32,544 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-11-26 20:16:33,006 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-11-26 20:16:33,015 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-11-26 20:16:33,015 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-11-26 20:16:33,016 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-11-26 20:16:36,494 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-11-26 20:16:36,504 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-26 20:16:36,505 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-26 20:16:36,505 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-26 20:16:36,505 [14] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-26 20:16:36,505 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-26 20:16:36,505 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-26 20:16:36,505 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-26 20:16:36,505 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-11-26 20:16:36,607 [1] [WARN ] [GameServer] ：NetService Started
+2021-11-26 20:16:40,753 [4] [WARN ] [GameServer] ：Client[127.0.0.1:49732]] Connected
+2021-11-26 20:16:40,906 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-11-26 20:16:41,184 [7] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-11-26 20:16:59,527 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-26 20:16:59,532 [9] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:大法 Map:1
+2021-11-26 20:16:59,767 [9] [INFO ] [GameServer] ：1:大法 GetFriendInfo: 2:大法 Status:0
+2021-11-26 20:16:59,773 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-26 20:16:59,774 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 0<1637928996.48769
+2021-11-26 20:16:59,906 [9] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-11-26 20:16:59,908 [9] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-26 20:16:59,909 [9] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637928996.48769<1637928996.48769
+2021-11-26 20:17:16,994 [4] [INFO ] [GameServer] ：CharacterLeave: characterID:1:大法
+2021-11-26 20:17:16,997 [4] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2021-11-26 20:17:16,999 [4] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:大法 : Map:1 Character:1:大法
+2021-11-26 20:17:17,010 [4] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-26 20:17:36,726 [6] [INFO ] [GameServer] ：Map:[2] Spawn[1: Mon:1001,Lv:1] At Point:1
+2021-11-26 20:17:36,730 [6] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:2
+2021-11-26 20:17:36,741 [6] [INFO ] [GameServer] ：Map:[2] Spawn[2: Mon:1002,Lv:1] At Point:2
+2021-11-26 20:17:36,751 [6] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:3
+2021-11-26 20:17:36,751 [6] [INFO ] [GameServer] ：Map:[2] Spawn[3: Mon:1003,Lv:1] At Point:3
+2021-11-26 20:17:36,753 [6] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:4
+2021-11-26 20:17:36,754 [6] [INFO ] [GameServer] ：Map:[2] Spawn[4: Mon:1005,Lv:1] At Point:4
+2021-11-26 20:17:36,755 [6] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:5
+2021-11-26 20:17:36,756 [6] [INFO ] [GameServer] ：Map:[3] Spawn[1: Mon:1001,Lv:1] At Point:1
+2021-11-26 20:17:36,761 [6] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:6
+2021-11-26 20:17:36,762 [6] [INFO ] [GameServer] ：Map:[3] Spawn[2: Mon:1002,Lv:1] At Point:2
+2021-11-26 20:17:36,767 [6] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:7
+2021-11-26 20:17:36,768 [6] [INFO ] [GameServer] ：Map:[3] Spawn[3: Mon:1003,Lv:1] At Point:3
+2021-11-26 20:17:36,769 [6] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:8
+2021-11-26 20:17:36,770 [6] [INFO ] [GameServer] ：Map:[3] Spawn[4: Mon:1005,Lv:1] At Point:4
+2021-11-26 20:17:36,771 [6] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:9
+2021-11-26 20:32:23,889 [4] [WARN ] [GameServer] ：Client[127.0.0.1:50315]] Connected
+2021-11-26 20:32:24,045 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-11-26 20:32:24,047 [10] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-11-26 20:32:27,016 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-26 20:32:27,019 [11] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:大法 Map:1
+2021-11-26 20:32:27,024 [11] [INFO ] [GameServer] ：1:大法 GetFriendInfo: 2:大法 Status:0
+2021-11-26 20:32:27,026 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-26 20:32:27,027 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 0<1637928996.48769
+2021-11-26 20:32:27,028 [11] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-11-26 20:32:27,028 [11] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-26 20:32:27,030 [11] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637928996.48769<1637928996.48769
+2021-11-26 20:34:50,066 [4] [INFO ] [GameServer] ：CharacterLeave: characterID:1:大法
+2021-11-26 20:34:50,067 [4] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2021-11-26 20:34:50,070 [4] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:大法 : Map:1 Character:1:大法
+2021-11-26 20:34:50,071 [4] [WARN ] [GameServer] ：Client[] Disconnected
+2021-11-26 20:41:21,395 [4] [WARN ] [GameServer] ：Client[127.0.0.1:50795]] Connected
+2021-11-26 20:41:21,556 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-11-26 20:41:21,558 [12] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-11-26 20:41:37,391 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-11-26 20:41:37,392 [13] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:大法 Map:1
+2021-11-26 20:41:37,394 [13] [INFO ] [GameServer] ：1:大法 GetFriendInfo: 2:大法 Status:0
+2021-11-26 20:41:37,395 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-26 20:41:37,398 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 0<1637928996.48769
+2021-11-26 20:41:37,399 [13] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-11-26 20:41:37,402 [13] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:大法
+2021-11-26 20:41:37,403 [13] [INFO ] [GameServer] ：Proprocess > Guild: characterId:1:大法 1637928996.48769<1637928996.48769
+2021-11-26 20:42:13,287 [4] [INFO ] [GameServer] ：CharacterLeave: characterID:1:大法
+2021-11-26 20:42:13,288 [4] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2021-11-26 20:42:13,290 [4] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:大法 : Map:1 Character:1:大法
+2021-11-26 20:42:13,291 [4] [WARN ] [GameServer] ：Client[] Disconnected

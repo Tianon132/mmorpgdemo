@@ -1,0 +1,21 @@
+
+2021-07-05 05:57:42,406 [1] [INFO ] [GameServer] ：Game Server Init
+2021-07-05 05:57:45,963 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-07-05 05:57:46,907 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1奥特兰
+2021-07-05 05:57:46,915 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2野外1
+2021-07-05 05:57:46,923 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3野外2
+2021-07-05 05:57:46,924 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4副本1
+2021-07-05 05:57:46,926 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-07-05 05:57:47,070 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-05 05:57:47,071 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-05 05:57:47,072 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-05 05:57:47,076 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-05 05:57:47,077 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-05 05:57:47,078 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-05 05:57:47,080 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-05 05:57:47,082 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-05 05:57:47,295 [1] [WARN ] [GameServer] ：NetService Started
+2021-07-05 05:57:58,393 [4] [WARN ] [GameServer] ：Client[127.0.0.1:52142]] Connected
+2021-07-05 05:57:58,572 [4] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-07-05 05:57:59,133 [6] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-07-05 05:58:24,443 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:10

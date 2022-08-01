@@ -1,0 +1,562 @@
+
+2022-04-29 00:59:13,968 [1] [INFO ] [GameServer] ：Game Server Init
+2022-04-29 00:59:16,228 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2022-04-29 00:59:17,253 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2022-04-29 00:59:17,263 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2022-04-29 00:59:17,264 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2022-04-29 00:59:17,265 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2022-04-29 00:59:25,003 [1] [WARN ] [GameServer] ：Starting Listener...
+2022-04-29 00:59:25,122 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2022-04-29 00:59:25,122 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2022-04-29 00:59:25,123 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2022-04-29 00:59:25,123 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2022-04-29 00:59:25,127 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2022-04-29 00:59:25,127 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2022-04-29 00:59:25,128 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2022-04-29 00:59:25,128 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2022-04-29 00:59:25,221 [1] [WARN ] [GameServer] ：NetService Started
+2022-04-29 01:03:00,210 [1] [INFO ] [GameServer] ：Game Server Init
+2022-04-29 01:03:00,617 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2022-04-29 01:03:01,219 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2022-04-29 01:03:01,230 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2022-04-29 01:03:01,231 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2022-04-29 01:03:01,231 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2022-04-29 01:03:06,412 [1] [WARN ] [GameServer] ：Starting Listener...
+2022-04-29 01:03:06,440 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2022-04-29 01:03:06,446 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2022-04-29 01:03:06,457 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2022-04-29 01:03:06,457 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2022-04-29 01:03:06,457 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2022-04-29 01:03:06,458 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2022-04-29 01:03:06,459 [13] [WARN ] [GameServer] ：MessageDistribute thread start
+2022-04-29 01:03:06,460 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2022-04-29 01:03:06,527 [1] [WARN ] [GameServer] ：NetService Started
+2022-04-29 01:03:10,643 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7817]] Connected
+2022-04-29 01:03:10,884 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2022-04-29 01:03:11,174 [6] [INFO ] [GameServer] ：UserRegisterRequest: User:1  Pass:1
+2022-04-29 01:03:22,309 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2022-04-29 01:03:22,314 [12] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2022-04-29 01:03:35,847 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:18
+2022-04-29 01:03:35,854 [11] [INFO ] [GameServer] ：UserRegisterRequest: Name:李旭  Class:Archer
+2022-04-29 01:03:38,300 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2022-04-29 01:03:38,304 [7] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:李旭 Map:1
+2022-04-29 01:03:38,320 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:李旭
+2022-04-29 01:03:38,345 [7] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2022-04-29 01:03:38,346 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:李旭
+2022-04-29 01:04:06,732 [5] [INFO ] [GameServer] ：Map:[2] Spawn[1: Mon:1001,Lv:1] At Point:1
+2022-04-29 01:04:06,735 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:2
+2022-04-29 01:04:06,736 [5] [INFO ] [GameServer] ：Map:[2] Spawn[2: Mon:1002,Lv:1] At Point:2
+2022-04-29 01:04:06,737 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:3
+2022-04-29 01:04:06,738 [5] [INFO ] [GameServer] ：Map:[2] Spawn[3: Mon:1003,Lv:1] At Point:3
+2022-04-29 01:04:06,739 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:4
+2022-04-29 01:04:06,745 [5] [INFO ] [GameServer] ：Map:[2] Spawn[4: Mon:1005,Lv:1] At Point:4
+2022-04-29 01:04:06,747 [5] [INFO ] [GameServer] ：MonsterEnter:Map:2 monsterId:5
+2022-04-29 01:04:06,750 [5] [INFO ] [GameServer] ：Map:[3] Spawn[1: Mon:1001,Lv:1] At Point:1
+2022-04-29 01:04:06,752 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:6
+2022-04-29 01:04:06,755 [5] [INFO ] [GameServer] ：Map:[3] Spawn[2: Mon:1002,Lv:1] At Point:2
+2022-04-29 01:04:06,756 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:7
+2022-04-29 01:04:06,759 [5] [INFO ] [GameServer] ：Map:[3] Spawn[3: Mon:1003,Lv:1] At Point:3
+2022-04-29 01:04:06,761 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:8
+2022-04-29 01:04:06,762 [5] [INFO ] [GameServer] ：Map:[3] Spawn[4: Mon:1005,Lv:1] At Point:4
+2022-04-29 01:04:06,763 [5] [INFO ] [GameServer] ：MonsterEnter:Map:3 monsterId:9
+2022-04-29 01:06:08,261 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2022-04-29 01:06:08,292 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5020,4000,820),dir:(98,-19,0),spd:300
+2022-04-29 01:06:08,314 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:08,315 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5050,3994,820),dir:(93,-37,0),spd:300
+2022-04-29 01:06:08,384 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:08,387 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5050,3994,820),dir:(93,-37,0),spd:300
+2022-04-29 01:06:08,439 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:08,442 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5080,3982,820),dir:(83,-55,0),spd:300
+2022-04-29 01:06:08,514 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:08,517 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5104,3964,820),dir:(70,-71,0),spd:300
+2022-04-29 01:06:08,588 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:08,592 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5124,3944,820),dir:(57,-82,0),spd:300
+2022-04-29 01:06:08,719 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:08,722 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5142,3920,820),dir:(41,-91,0),spd:300
+2022-04-29 01:06:08,881 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:08,885 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5164,3865,820),dir:(24,-97,0),spd:300
+2022-04-29 01:06:08,967 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2022-04-29 01:06:08,970 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:Idle Entity:(1:pos:(5169,3840,820),dir:(24,-97,0),spd:0
+2022-04-29 01:06:09,231 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2022-04-29 01:06:09,233 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5169,3840,820),dir:(24,-97,0),spd:300
+2022-04-29 01:06:09,481 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:09,483 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5187,3750,820),dir:(41,-91,0),spd:300
+2022-04-29 01:06:09,621 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2022-04-29 01:06:09,623 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:Idle Entity:(1:pos:(5201,3715,820),dir:(41,-91,0),spd:0
+2022-04-29 01:06:10,394 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2022-04-29 01:06:10,395 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5201,3715,820),dir:(41,-91,0),spd:300
+2022-04-29 01:06:10,513 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:10,514 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5213,3685,820),dir:(57,-82,0),spd:300
+2022-04-29 01:06:10,890 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:10,892 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5216,3746,800),dir:(71,-70,0),spd:300
+2022-04-29 01:06:10,950 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:10,952 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5216,3746,800),dir:(71,-70,0),spd:300
+2022-04-29 01:06:11,017 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:11,019 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5268,3694,800),dir:(82,-57,0),spd:300
+2022-04-29 01:06:12,505 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:12,509 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5602,3533,800),dir:(82,-57,0),spd:300
+2022-04-29 01:06:12,817 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:12,820 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5597,3533,800),dir:(82,-57,0),spd:300
+2022-04-29 01:06:13,189 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:13,191 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5600,3530,800),dir:(82,-57,0),spd:300
+2022-04-29 01:06:13,564 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:13,567 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5598,3528,800),dir:(82,-57,0),spd:300
+2022-04-29 01:06:13,689 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:13,692 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5642,3495,800),dir:(91,-42,0),spd:300
+2022-04-29 01:06:13,857 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:13,860 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5597,3527,800),dir:(91,-42,0),spd:300
+2022-04-29 01:06:14,218 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:14,221 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5596,3525,800),dir:(91,-42,0),spd:300
+2022-04-29 01:06:14,527 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:14,530 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5596,3522,800),dir:(91,-42,0),spd:300
+2022-04-29 01:06:14,870 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:14,873 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5595,3519,800),dir:(91,-42,0),spd:300
+2022-04-29 01:06:15,197 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:15,199 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5596,3516,800),dir:(91,-42,0),spd:300
+2022-04-29 01:06:15,515 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:15,517 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5594,3513,800),dir:(91,-42,0),spd:300
+2022-04-29 01:06:15,577 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:15,580 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5614,3505,800),dir:(97,-25,0),spd:300
+2022-04-29 01:06:15,834 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:15,837 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5595,3509,800),dir:(97,-25,0),spd:300
+2022-04-29 01:06:16,196 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:16,199 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5591,3505,800),dir:(97,-25,0),spd:300
+2022-04-29 01:06:16,510 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:16,513 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5590,3500,800),dir:(97,-25,0),spd:300
+2022-04-29 01:06:16,822 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:16,825 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5675,3483,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:16,886 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:16,889 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5591,3496,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:17,264 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:17,268 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5591,3494,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:17,602 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:17,605 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5591,3493,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:17,972 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:17,975 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5591,3493,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:18,344 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:18,346 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5591,3493,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:18,682 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:18,685 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5592,3493,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:19,047 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:19,048 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5593,3493,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:19,410 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:19,412 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5589,3493,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:19,747 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:19,750 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5591,3493,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:20,096 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:20,099 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5592,3493,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:20,470 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:20,473 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5592,3493,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:20,820 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:20,824 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5592,3493,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:21,162 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:21,163 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5592,3493,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:21,486 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:21,487 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5591,3493,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:21,835 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:21,838 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5591,3493,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:22,208 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:22,211 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5591,3493,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:22,573 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:22,576 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5590,3493,800),dir:(100,-7,0),spd:300
+2022-04-29 01:06:22,694 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2022-04-29 01:06:22,695 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:Idle Entity:(1:pos:(5610,3493,800),dir:(100,-7,0),spd:-300
+2022-04-29 01:06:22,743 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2022-04-29 01:06:22,745 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:MoveBack Entity:(1:pos:(5610,3493,800),dir:(100,-7,0),spd:-300
+2022-04-29 01:06:24,231 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2022-04-29 01:06:24,234 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:Idle Entity:(1:pos:(5135,3493,800),dir:(100,-7,0),spd:0
+2022-04-29 01:06:55,572 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:06:55,575 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5135,3493,800),dir:(99,11,0),spd:0
+2022-04-29 01:06:55,637 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2022-04-29 01:06:55,640 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5135,3493,800),dir:(99,11,0),spd:300
+2022-04-29 01:06:55,693 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2022-04-29 01:06:55,696 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5165,3499,800),dir:(96,29,0),spd:300
+2022-04-29 01:06:55,765 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2022-04-29 01:06:55,768 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5195,3505,800),dir:(88,48,0),spd:300
+2022-04-29 01:06:55,860 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2022-04-29 01:06:55,862 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5219,3517,800),dir:(76,65,0),spd:300
+2022-04-29 01:06:55,987 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2022-04-29 01:06:55,990 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5243,3535,800),dir:(61,79,0),spd:300
+2022-04-29 01:06:56,054 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2022-04-29 01:06:56,057 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5258,3555,800),dir:(46,89,0),spd:300
+2022-04-29 01:06:56,221 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2022-04-29 01:06:56,224 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5270,3579,800),dir:(27,96,0),spd:300
+2022-04-29 01:06:56,298 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2022-04-29 01:06:56,300 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5275,3604,800),dir:(10,100,0),spd:300
+2022-04-29 01:06:56,394 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:56,397 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5280,3629,800),dir:(-8,100,0),spd:300
+2022-04-29 01:06:56,477 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:56,480 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5280,3659,800),dir:(-28,96,0),spd:300
+2022-04-29 01:06:56,570 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:56,573 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5275,3684,800),dir:(-45,89,0),spd:300
+2022-04-29 01:06:56,654 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:56,658 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5261,3712,800),dir:(-60,80,0),spd:300
+2022-04-29 01:06:57,272 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:57,273 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5144,3868,800),dir:(-44,90,0),spd:300
+2022-04-29 01:06:57,382 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:57,385 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5134,3893,800),dir:(-27,96,0),spd:300
+2022-04-29 01:06:57,492 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:57,494 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5128,3923,800),dir:(-8,100,0),spd:300
+2022-04-29 01:06:57,619 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2022-04-29 01:06:57,622 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5128,3968,800),dir:(10,99,0),spd:300
+2022-04-29 01:06:57,824 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2022-04-29 01:06:57,826 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:Idle Entity:(1:pos:(5139,4023,800),dir:(10,99,0),spd:0
+2022-04-29 01:06:57,936 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2022-04-29 01:06:57,938 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5139,4023,800),dir:(10,99,0),spd:300
+2022-04-29 01:06:58,041 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:06:58,045 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5146,4058,800),dir:(-9,100,0),spd:300
+2022-04-29 01:06:58,179 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2022-04-29 01:06:58,182 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:Idle Entity:(1:pos:(5146,4093,800),dir:(-28,96,0),spd:0
+2022-04-29 01:06:58,230 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:06:58,233 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5146,4093,800),dir:(-28,96,0),spd:0
+2022-04-29 01:07:01,557 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:07:01,558 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5146,4093,800),dir:(-44,90,0),spd:0
+2022-04-29 01:07:01,718 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:07:01,721 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5146,4093,800),dir:(-59,81,0),spd:0
+2022-04-29 01:07:01,868 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:07:01,870 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5146,4093,800),dir:(-74,68,0),spd:0
+2022-04-29 01:07:02,075 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:07:02,077 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5146,4093,800),dir:(-86,51,0),spd:0
+2022-04-29 01:07:02,123 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:07:02,125 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5146,4093,800),dir:(-94,35,0),spd:0
+2022-04-29 01:07:02,159 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:07:02,161 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5146,4093,800),dir:(-99,15,0),spd:0
+2022-04-29 01:07:02,355 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2022-04-29 01:07:02,357 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5146,4093,800),dir:(-100,-3,0),spd:0
+2022-04-29 01:07:06,528 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2022-04-29 01:07:06,531 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5146,4093,800),dir:(-98,-21,0),spd:0
+2022-04-29 01:07:06,652 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2022-04-29 01:07:06,654 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5146,4093,800),dir:(-93,-38,0),spd:0
+2022-04-29 01:07:06,797 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2022-04-29 01:07:06,801 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(5141,4091,800),dir:(-83,-56,0),spd:300
+2022-04-29 01:07:06,853 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:06,856 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5117,4073,800),dir:(-70,-72,0),spd:300
+2022-04-29 01:07:06,903 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:06,905 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5117,4073,800),dir:(-70,-72,0),spd:300
+2022-04-29 01:07:06,949 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:06,951 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5097,4053,800),dir:(-56,-83,0),spd:300
+2022-04-29 01:07:07,043 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:07,045 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5079,4029,800),dir:(-39,-92,0),spd:300
+2022-04-29 01:07:07,201 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:07,203 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(5061,3984,800),dir:(-22,-98,0),spd:300
+2022-04-29 01:07:09,951 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:09,952 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4944,3247,800),dir:(-22,-98,0),spd:300
+2022-04-29 01:07:10,001 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:10,002 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4939,3222,800),dir:(-41,-91,0),spd:300
+2022-04-29 01:07:10,155 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:10,158 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4927,3192,800),dir:(-58,-81,0),spd:300
+2022-04-29 01:07:10,215 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2022-04-29 01:07:10,217 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:Idle Entity:(1:pos:(4924,3188,800),dir:(-72,-70,0),spd:0
+2022-04-29 01:07:10,248 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2022-04-29 01:07:10,251 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4924,3188,800),dir:(-72,-70,0),spd:0
+2022-04-29 01:07:10,291 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2022-04-29 01:07:10,294 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4924,3188,800),dir:(-85,-53,0),spd:0
+2022-04-29 01:07:10,425 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2022-04-29 01:07:10,428 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4924,3188,800),dir:(-94,-35,0),spd:0
+2022-04-29 01:07:10,526 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2022-04-29 01:07:10,527 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4924,3188,800),dir:(-99,-17,0),spd:0
+2022-04-29 01:07:11,655 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2022-04-29 01:07:11,657 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(4924,3188,800),dir:(-99,-17,0),spd:300
+2022-04-29 01:07:11,729 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:11,731 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4874,3178,800),dir:(-94,-35,0),spd:300
+2022-04-29 01:07:11,761 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2022-04-29 01:07:11,762 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:Idle Entity:(1:pos:(4869,3176,800),dir:(-94,-35,0),spd:0
+2022-04-29 01:07:14,586 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2022-04-29 01:07:14,587 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(4869,3176,800),dir:(-94,-35,0),spd:300
+2022-04-29 01:07:14,835 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2022-04-29 01:07:14,837 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:Idle Entity:(1:pos:(4779,3140,800),dir:(-94,-35,0),spd:0
+2022-04-29 01:07:15,155 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2022-04-29 01:07:15,158 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:MoveFwd Entity:(1:pos:(4779,3140,800),dir:(-94,-35,0),spd:300
+2022-04-29 01:07:15,214 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:15,217 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4739,3124,800),dir:(-86,-51,0),spd:300
+2022-04-29 01:07:15,317 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:15,320 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4711,3103,800),dir:(-75,-66,0),spd:300
+2022-04-29 01:07:15,423 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:15,425 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4687,3085,800),dir:(-60,-80,0),spd:300
+2022-04-29 01:07:15,511 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:15,513 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4669,3061,800),dir:(-42,-91,0),spd:300
+2022-04-29 01:07:15,648 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:15,651 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4657,3031,800),dir:(-23,-97,0),spd:300
+2022-04-29 01:07:15,705 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:15,707 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4652,3006,800),dir:(-6,-100,0),spd:300
+2022-04-29 01:07:16,152 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:16,155 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4652,2876,800),dir:(-25,-97,0),spd:300
+2022-04-29 01:07:16,261 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:16,264 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4646,2846,800),dir:(-44,-90,0),spd:300
+2022-04-29 01:07:16,340 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:16,343 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4636,2821,800),dir:(-59,-81,0),spd:300
+2022-04-29 01:07:16,403 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:16,406 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4621,2801,800),dir:(-72,-69,0),spd:300
+2022-04-29 01:07:16,501 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:16,504 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4601,2786,800),dir:(-83,-56,0),spd:300
+2022-04-29 01:07:16,578 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:16,581 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4581,2771,800),dir:(-92,-40,0),spd:300
+2022-04-29 01:07:16,702 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:07:16,705 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4551,2759,800),dir:(-98,-20,0),spd:300
+2022-04-29 01:07:16,778 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:43
+2022-04-29 01:07:16,780 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4516,2752,800),dir:(-100,0,0),spd:300
+2022-04-29 01:07:17,520 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:07:17,523 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4301,2752,800),dir:(-98,18,0),spd:300
+2022-04-29 01:07:17,570 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2022-04-29 01:07:17,573 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:Idle Entity:(1:pos:(4291,2754,800),dir:(-98,18,0),spd:0
+2022-04-29 01:07:17,700 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:07:17,702 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4291,2754,800),dir:(-93,37,0),spd:0
+2022-04-29 01:07:17,858 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:07:17,860 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:1 Evt:None Entity:(1:pos:(4291,2754,800),dir:(-84,54,0),spd:0
+2022-04-29 01:08:11,834 [3] [INFO ] [GameServer] ：CharacterLeave: characterID:1:李旭
+2022-04-29 01:08:11,838 [3] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2022-04-29 01:08:11,840 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:李旭 : Map:1 Character:1:李旭
+2022-04-29 01:08:11,843 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2022-04-29 01:11:13,885 [3] [WARN ] [GameServer] ：Client[127.0.0.1:7921]] Connected
+2022-04-29 01:11:14,059 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2022-04-29 01:11:14,060 [9] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2022-04-29 01:13:32,964 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2022-04-29 01:14:05,407 [3] [WARN ] [GameServer] ：Client[127.0.0.1:8109]] Connected
+2022-04-29 01:14:05,581 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2022-04-29 01:14:05,583 [10] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2022-04-29 01:14:16,078 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2022-04-29 01:16:46,516 [3] [WARN ] [GameServer] ：Client[127.0.0.1:8201]] Connected
+2022-04-29 01:16:46,690 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2022-04-29 01:16:46,692 [6] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2022-04-29 01:16:56,074 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2022-04-29 01:16:56,076 [12] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:李旭 Map:1
+2022-04-29 01:16:56,076 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:李旭
+2022-04-29 01:16:56,077 [12] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2022-04-29 01:16:56,078 [12] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:李旭
+2022-04-29 01:17:19,294 [3] [INFO ] [GameServer] ：CharacterLeave: characterID:1:李旭
+2022-04-29 01:17:19,295 [3] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2022-04-29 01:17:19,296 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:李旭 : Map:1 Character:1:李旭
+2022-04-29 01:17:19,298 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2022-04-29 01:18:42,456 [3] [WARN ] [GameServer] ：Client[127.0.0.1:8253]] Connected
+2022-04-29 01:18:42,627 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2022-04-29 01:18:42,629 [11] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2022-04-29 01:18:47,392 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2022-04-29 01:18:47,394 [7] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:李旭 Map:1
+2022-04-29 01:18:47,395 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:李旭
+2022-04-29 01:18:47,398 [7] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2022-04-29 01:18:47,399 [7] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:李旭
+2022-04-29 01:18:56,226 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2022-04-29 01:18:56,228 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:MoveFwd Entity:(11:pos:(5000,4000,820),dir:(100,0,0),spd:300
+2022-04-29 01:18:56,328 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:18:56,329 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5035,4000,820),dir:(98,-18,0),spd:300
+2022-04-29 01:18:56,427 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:18:56,429 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5065,3994,820),dir:(94,-35,0),spd:300
+2022-04-29 01:18:56,515 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:18:56,517 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5090,3984,820),dir:(86,-51,0),spd:300
+2022-04-29 01:18:56,617 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:18:56,618 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5114,3966,820),dir:(74,-67,0),spd:300
+2022-04-29 01:18:56,726 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:18:56,727 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5142,3945,820),dir:(60,-80,0),spd:300
+2022-04-29 01:18:56,843 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:18:56,844 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5163,3917,820),dir:(43,-90,0),spd:300
+2022-04-29 01:18:56,949 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:18:56,951 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5175,3887,820),dir:(25,-97,0),spd:300
+2022-04-29 01:18:57,118 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:18:57,120 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3837,820),dir:(7,-100,0),spd:300
+2022-04-29 01:18:57,268 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2022-04-29 01:18:57,270 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:Idle Entity:(11:pos:(5185,3792,820),dir:(7,-100,0),spd:0
+2022-04-29 01:18:57,413 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2022-04-29 01:18:57,415 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:MoveFwd Entity:(11:pos:(5185,3792,820),dir:(7,-100,0),spd:300
+2022-04-29 01:18:57,601 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2022-04-29 01:18:57,603 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:Idle Entity:(11:pos:(5185,3737,820),dir:(24,-97,0),spd:0
+2022-04-29 01:18:57,634 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:18:57,636 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(24,-97,0),spd:0
+2022-04-29 01:18:58,451 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:18:58,453 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(6,-100,0),spd:0
+2022-04-29 01:18:58,557 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2022-04-29 01:18:58,558 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-12,-99,0),spd:0
+2022-04-29 01:18:58,656 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2022-04-29 01:18:58,658 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-32,-95,0),spd:0
+2022-04-29 01:18:58,740 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2022-04-29 01:18:58,741 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-48,-88,0),spd:0
+2022-04-29 01:18:58,818 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2022-04-29 01:18:58,820 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-63,-78,0),spd:0
+2022-04-29 01:18:58,921 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2022-04-29 01:18:58,922 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-78,-63,0),spd:0
+2022-04-29 01:18:59,015 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2022-04-29 01:18:59,016 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-89,-46,0),spd:0
+2022-04-29 01:18:59,115 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2022-04-29 01:18:59,116 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-96,-28,0),spd:0
+2022-04-29 01:18:59,286 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:51
+2022-04-29 01:18:59,288 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-99,-10,0),spd:0
+2022-04-29 01:18:59,876 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:18:59,877 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-100,9,0),spd:0
+2022-04-29 01:18:59,992 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:18:59,994 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-96,28,0),spd:0
+2022-04-29 01:19:00,163 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:00,164 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-90,44,0),spd:0
+2022-04-29 01:19:04,178 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:04,180 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-80,60,0),spd:0
+2022-04-29 01:19:04,596 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:04,598 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-68,73,0),spd:0
+2022-04-29 01:19:04,715 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:04,717 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-53,85,0),spd:0
+2022-04-29 01:19:04,798 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:04,800 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-37,93,0),spd:0
+2022-04-29 01:19:04,908 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:04,909 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-20,98,0),spd:0
+2022-04-29 01:19:05,493 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:05,494 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-2,100,0),spd:0
+2022-04-29 01:19:06,108 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:06,109 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(17,99,0),spd:0
+2022-04-29 01:19:06,273 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:06,275 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(35,94,0),spd:0
+2022-04-29 01:19:06,575 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:06,576 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(51,86,0),spd:0
+2022-04-29 01:19:06,689 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:06,690 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(67,74,0),spd:0
+2022-04-29 01:19:06,774 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:06,775 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(79,61,0),spd:0
+2022-04-29 01:19:06,874 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:06,876 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(89,46,0),spd:0
+2022-04-29 01:19:06,960 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:06,962 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(96,28,0),spd:0
+2022-04-29 01:19:07,109 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:07,111 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(99,10,0),spd:0
+2022-04-29 01:19:08,118 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:08,121 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(96,29,0),spd:0
+2022-04-29 01:19:08,236 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:08,237 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(88,47,0),spd:0
+2022-04-29 01:19:08,285 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:08,287 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(79,62,0),spd:0
+2022-04-29 01:19:08,376 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:08,377 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(67,74,0),spd:0
+2022-04-29 01:19:08,446 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:08,448 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(53,85,0),spd:0
+2022-04-29 01:19:08,539 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:08,541 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(37,93,0),spd:0
+2022-04-29 01:19:08,638 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:08,640 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(17,99,0),spd:0
+2022-04-29 01:19:08,744 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:08,746 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-4,100,0),spd:0
+2022-04-29 01:19:08,846 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:08,848 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-24,97,0),spd:0
+2022-04-29 01:19:08,917 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:08,920 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-41,91,0),spd:0
+2022-04-29 01:19:09,032 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:09,033 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-59,81,0),spd:0
+2022-04-29 01:19:09,099 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:09,100 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-72,69,0),spd:0
+2022-04-29 01:19:09,211 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:09,214 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-85,53,0),spd:0
+2022-04-29 01:19:09,326 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:09,329 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-93,37,0),spd:0
+2022-04-29 01:19:09,433 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:09,436 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-98,19,0),spd:0
+2022-04-29 01:19:11,276 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:11,278 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-93,36,0),spd:0
+2022-04-29 01:19:11,381 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:11,383 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-85,52,0),spd:0
+2022-04-29 01:19:11,465 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:11,466 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-75,66,0),spd:0
+2022-04-29 01:19:11,546 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:11,548 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-62,78,0),spd:0
+2022-04-29 01:19:11,619 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:11,621 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-48,88,0),spd:0
+2022-04-29 01:19:11,704 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:11,705 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-32,95,0),spd:0
+2022-04-29 01:19:11,790 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:11,792 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(-15,99,0),spd:0
+2022-04-29 01:19:11,874 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:11,875 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(3,100,0),spd:0
+2022-04-29 01:19:11,986 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:11,987 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(23,97,0),spd:0
+2022-04-29 01:19:12,051 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:12,053 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5185,3737,820),dir:(40,92,0),spd:0
+2022-04-29 01:19:12,209 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:38
+2022-04-29 01:19:12,210 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:MoveFwd Entity:(11:pos:(5187,3742,820),dir:(56,83,0),spd:300
+2022-04-29 01:19:12,241 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2022-04-29 01:19:12,242 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5187,3742,820),dir:(56,83,0),spd:300
+2022-04-29 01:19:12,608 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2022-04-29 01:19:12,609 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5265,3846,820),dir:(70,72,0),spd:300
+2022-04-29 01:19:12,709 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:35
+2022-04-29 01:19:12,711 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:Idle Entity:(11:pos:(5289,3870,820),dir:(70,72,0),spd:0
+2022-04-29 01:19:12,743 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:12,744 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5289,3870,820),dir:(81,58,0),spd:0
+2022-04-29 01:19:12,845 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:12,847 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5289,3870,820),dir:(91,41,0),spd:0
+2022-04-29 01:19:12,929 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:12,930 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5289,3870,820),dir:(97,24,0),spd:0
+2022-04-29 01:19:13,028 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2022-04-29 01:19:13,029 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5289,3870,820),dir:(100,6,0),spd:0
+2022-04-29 01:19:13,182 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2022-04-29 01:19:13,184 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5289,3870,820),dir:(99,-11,0),spd:0
+2022-04-29 01:19:13,924 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2022-04-29 01:19:13,925 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:MoveFwd Entity:(11:pos:(5289,3870,820),dir:(99,-11,0),spd:300
+2022-04-29 01:19:13,956 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:13,958 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5294,3869,820),dir:(96,-29,0),spd:300
+2022-04-29 01:19:14,106 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:14,107 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5344,3859,820),dir:(89,-45,0),spd:300
+2022-04-29 01:19:14,515 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:14,518 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5396,3833,820),dir:(79,-61,0),spd:300
+2022-04-29 01:19:15,340 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:15,342 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5507,3656,800),dir:(79,-61,0),spd:300
+2022-04-29 01:19:16,149 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:16,151 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5613,3554,800),dir:(79,-61,0),spd:300
+2022-04-29 01:19:16,499 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:16,501 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5613,3554,800),dir:(79,-61,0),spd:300
+2022-04-29 01:19:16,847 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:16,847 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5612,3554,800),dir:(79,-61,0),spd:300
+2022-04-29 01:19:17,071 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:12
+2022-04-29 01:19:17,074 [8] [INFO ] [GameServer] ：OnItemBuy::character:1:Shop:3 ShopItem:2
+2022-04-29 01:19:17,077 [8] [INFO ] [GameServer] ：BuyItem: :Character:1:Item:8002 Count:1 Price:1000
+2022-04-29 01:19:17,080 [8] [INFO ] [GameServer] ：[1]AddItem[ID:8002,Count:1] addCount:1
+2022-04-29 01:19:17,187 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:17,188 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5612,3554,800),dir:(79,-61,0),spd:300
+2022-04-29 01:19:17,217 [8] [INFO ] [GameServer] ：PostProcess > Character: characterID:1:李旭
+2022-04-29 01:19:17,771 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:17,774 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5614,3553,800),dir:(79,-61,0),spd:300
+2022-04-29 01:19:18,062 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:18,063 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5613,3554,800),dir:(79,-61,0),spd:300
+2022-04-29 01:19:18,566 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:18,569 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5613,3554,800),dir:(79,-61,0),spd:300
+2022-04-29 01:19:18,828 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:18,830 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5613,3554,800),dir:(79,-61,0),spd:300
+2022-04-29 01:19:19,183 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:19,185 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5613,3554,800),dir:(79,-61,0),spd:300
+2022-04-29 01:19:19,525 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:19,527 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5613,3554,800),dir:(79,-61,0),spd:300
+2022-04-29 01:19:19,694 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2022-04-29 01:19:19,695 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:Idle Entity:(11:pos:(5657,3521,800),dir:(79,-61,0),spd:0
+2022-04-29 01:19:19,725 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:55
+2022-04-29 01:19:19,726 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:MoveBack Entity:(11:pos:(5657,3521,800),dir:(79,-61,0),spd:-300
+2022-04-29 01:19:21,587 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2022-04-29 01:19:21,590 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:Idle Entity:(11:pos:(5245,3830,800),dir:(79,-61,0),spd:0
+2022-04-29 01:19:23,889 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2022-04-29 01:19:23,891 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:Ride Entity:(11:pos:(5245,3830,800),dir:(79,-61,0),spd:0
+2022-04-29 01:19:29,502 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2022-04-29 01:19:29,504 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:MoveFwd Entity:(11:pos:(5245,3830,800),dir:(67,-74,0),spd:300
+2022-04-29 01:19:29,535 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:29,537 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5245,3830,800),dir:(67,-74,0),spd:300
+2022-04-29 01:19:29,640 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:29,641 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5269,3798,800),dir:(53,-85,0),spd:300
+2022-04-29 01:19:29,738 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:29,739 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5287,3774,800),dir:(35,-94,0),spd:300
+2022-04-29 01:19:29,841 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2022-04-29 01:19:29,842 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5299,3744,800),dir:(15,-99,0),spd:300
+2022-04-29 01:19:29,941 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:19:29,942 [8] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5305,3714,800),dir:(-6,-100,0),spd:300
+2022-04-29 01:19:30,044 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:19:30,045 [10] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5305,3684,800),dir:(-26,-96,0),spd:300
+2022-04-29 01:19:30,145 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:19:30,147 [6] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5299,3654,800),dir:(-43,-90,0),spd:300
+2022-04-29 01:19:30,642 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:19:30,644 [12] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5239,3504,800),dir:(-27,-96,0),spd:300
+2022-04-29 01:19:30,759 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:54
+2022-04-29 01:19:30,760 [11] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:None Entity:(11:pos:(5232,3469,800),dir:(-9,-100,0),spd:300
+2022-04-29 01:19:30,961 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2022-04-29 01:19:30,963 [7] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:Idle Entity:(11:pos:(5232,3409,800),dir:(-9,-100,0),spd:0
+2022-04-29 01:20:56,188 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:53
+2022-04-29 01:20:56,189 [13] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:Ride Entity:(11:pos:(5232,3409,800),dir:(-9,-100,0),spd:0
+2022-04-29 01:21:23,354 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:56
+2022-04-29 01:21:23,355 [9] [INFO ] [GameServer] ：OnMapEntitySync: characterID:1:李旭 Entity.Id:11 Evt:Ride Entity:(11:pos:(5232,3409,800),dir:(-9,-100,0),spd:0
+2022-04-29 01:22:05,758 [3] [INFO ] [GameServer] ：CharacterLeave: characterID:1:李旭
+2022-04-29 01:22:05,759 [3] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2022-04-29 01:22:05,760 [3] [INFO ] [GameServer] ：SendCharacterLeaveMap To 1:李旭 : Map:1 Character:1:李旭
+2022-04-29 01:22:05,763 [3] [WARN ] [GameServer] ：Client[] Disconnected
+2022-04-29 01:22:43,275 [1] [INFO ] [GameServer] ：Game Server Init
+2022-04-29 01:22:43,865 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2022-04-29 01:22:44,452 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2022-04-29 01:22:44,459 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2022-04-29 01:22:44,460 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2022-04-29 01:22:44,461 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间

@@ -1,0 +1,50 @@
+
+2021-08-05 15:57:00,369 [1] [INFO ] [GameServer] ：Game Server Init
+2021-08-05 15:57:02,862 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-08-05 15:57:03,830 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-08-05 15:57:03,837 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-08-05 15:57:03,838 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-08-05 15:57:03,838 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-08-05 15:57:03,840 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-08-05 15:57:04,146 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-05 15:57:04,146 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-05 15:57:04,147 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-05 15:57:04,147 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-05 15:57:04,147 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-05 15:57:04,151 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-05 15:57:04,151 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-05 15:57:04,155 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-08-05 15:57:04,201 [1] [WARN ] [GameServer] ：NetService Started
+2021-08-05 15:57:11,358 [3] [WARN ] [GameServer] ：Client[127.0.0.1:60645]] Connected
+2021-08-05 15:57:11,490 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-05 15:57:11,761 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-08-05 15:57:19,427 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-05 15:57:19,433 [6] [INFO ] [GameServer] ：UserRegisterRequest: User:1  Pass:1
+2021-08-05 15:57:23,540 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-08-05 15:57:23,542 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-08-05 15:57:40,249 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2021-08-05 15:57:40,256 [5] [INFO ] [GameServer] ：UserRegisterRequest: Name:妮  Class:Wizard
+2021-08-05 15:57:40,628 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.Entity.Core.UpdateException: “ExtremeWorldEntities.Characters”中的实体参与“CharacterBag”关系。找到 0 个相关的“TCharacterBag”。应有 1 个“TCharacterBag”。
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.RelationshipConstraintValidator.ValidateConstraints()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.ProduceCommands()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges(), “ExtremeWorldEntities.Characters”中的实体参与“CharacterBag”关系。找到 0 个相关的“TCharacterBag”。应有 1 个“TCharacterBag”。, EntityFramework,    在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 GameServer.Services.UserService.OnCreateCharacter(NetConnection`1 sender, UserCreateCharacterRequest request) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 121
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\2021\mmorpg\Src\Lib\Common\Network\MessageDistributer.cs:行号 105
+2021-08-05 15:58:08,537 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:15
+2021-08-05 15:58:08,538 [5] [INFO ] [GameServer] ：UserRegisterRequest: Name:涵  Class:Archer
+2021-08-05 15:58:08,576 [5] [ERROR] [GameServer] ：Message handler exception:System.Data.Entity.Core.UpdateException: “ExtremeWorldEntities.Characters”中的实体参与“CharacterBag”关系。找到 0 个相关的“TCharacterBag”。应有 1 个“TCharacterBag”。
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.RelationshipConstraintValidator.ValidateConstraints()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.ProduceCommands()
+   在 System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   在 System.Data.Entity.Internal.InternalContext.SaveChanges(), “ExtremeWorldEntities.Characters”中的实体参与“CharacterBag”关系。找到 0 个相关的“TCharacterBag”。应有 1 个“TCharacterBag”。, EntityFramework,    在 System.Data.Entity.Internal.InternalContext.SaveChanges()
+   在 GameServer.Services.UserService.OnCreateCharacter(NetConnection`1 sender, UserCreateCharacterRequest request) 位置 D:\2021\mmorpg\Src\Server\GameServer\GameServer\Services\UserSerevice.cs:行号 121
+   在 Network.MessageDistributer`1.RaiseEvent[Tm](T sender, Tm msg) 位置 D:\2021\mmorpg\Src\Lib\Common\Network\MessageDistributer.cs:行号 105

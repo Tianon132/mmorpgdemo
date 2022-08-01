@@ -1,0 +1,438 @@
+
+2021-07-20 00:21:42,016 [1] [INFO ] [GameServer] ：Game Server Init
+2021-07-20 00:21:42,880 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-07-20 00:21:43,554 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-07-20 00:21:43,592 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-07-20 00:21:43,593 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-07-20 00:21:43,594 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-07-20 00:21:43,596 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-07-20 00:21:43,619 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 00:21:43,620 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 00:21:43,625 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 00:21:43,626 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 00:21:43,620 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 00:21:43,628 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 00:21:43,629 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 00:21:43,633 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 00:21:43,721 [1] [WARN ] [GameServer] ：NetService Started
+2021-07-20 00:21:51,952 [3] [WARN ] [GameServer] ：Client[127.0.0.1:54488]] Connected
+2021-07-20 00:21:52,160 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-07-20 00:21:52,782 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-07-20 00:22:57,834 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-07-20 00:22:57,851 [11] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:松岗大神 Map:1
+2021-07-20 00:22:57,885 [11] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-07-20 00:23:26,264 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2021-07-20 00:23:26,277 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:MoveFwd Entity:SkillBridge.Message.NEntity
+2021-07-20 00:23:26,429 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2021-07-20 00:23:26,432 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 00:23:26,580 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2021-07-20 00:23:26,582 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 00:23:26,721 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-07-20 00:23:26,723 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 00:23:26,844 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-07-20 00:23:26,846 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:Idle Entity:SkillBridge.Message.NEntity
+2021-07-20 00:24:56,532 [3] [WARN ] [GameServer] ：Client[127.0.0.1:59979]] Connected
+2021-07-20 00:24:56,705 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-07-20 00:24:56,714 [12] [INFO ] [GameServer] ：UserLoginRequest: User:2  Pass:2
+2021-07-20 00:25:00,254 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-07-20 00:25:00,264 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:3:筱筱 Map:1
+2021-07-20 00:25:00,272 [5] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:2
+2021-07-20 00:25:05,114 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-07-20 00:25:05,132 [11] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:松岗大神 Map:1
+2021-07-20 00:25:05,152 [11] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2021-07-20 00:25:12,601 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-07-20 00:25:12,616 [8] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:松岗大神 Map:1
+2021-07-20 00:25:12,620 [8] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:3
+2021-07-20 00:25:22,872 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2021-07-20 00:25:22,878 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:3:松岗大神 Entity.Id:3 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 00:25:35,833 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2021-07-20 00:25:35,836 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:3:松岗大神 Entity.Id:3 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 00:25:36,049 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2021-07-20 00:25:36,054 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:3:松岗大神 Entity.Id:3 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 00:25:36,249 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2021-07-20 00:25:36,259 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:3:松岗大神 Entity.Id:3 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 00:25:36,545 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2021-07-20 00:25:36,550 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:3:松岗大神 Entity.Id:3 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 00:25:36,988 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2021-07-20 00:25:36,994 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:3:松岗大神 Entity.Id:3 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 00:25:37,189 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2021-07-20 00:25:37,193 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:3:松岗大神 Entity.Id:3 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 00:25:37,367 [14] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2021-07-20 00:25:37,375 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:3:松岗大神 Entity.Id:3 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 00:49:11,144 [14] [WARN ] [GameServer] ：Client[] Disconnected
+2021-07-20 01:21:43,585 [1] [INFO ] [GameServer] ：Game Server Init
+2021-07-20 01:21:46,078 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-07-20 01:21:46,693 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-07-20 01:21:46,746 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-07-20 01:21:46,747 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-07-20 01:21:46,747 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-07-20 01:21:46,749 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-07-20 01:21:46,882 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:21:46,882 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:21:46,883 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:21:46,884 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:21:46,884 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:21:46,885 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:21:46,887 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:21:46,891 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:21:46,985 [1] [WARN ] [GameServer] ：NetService Started
+2021-07-20 01:24:58,859 [3] [WARN ] [GameServer] ：Client[127.0.0.1:62584]] Connected
+2021-07-20 01:24:59,117 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-07-20 01:24:59,727 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-07-20 01:25:18,886 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-07-20 01:25:18,893 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:松岗大神 Map:1
+2021-07-20 01:25:18,909 [5] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-07-20 01:25:28,615 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2021-07-20 01:25:28,630 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:MoveFwd Entity:SkillBridge.Message.NEntity
+2021-07-20 01:25:28,703 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-07-20 01:25:28,705 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:Idle Entity:SkillBridge.Message.NEntity
+2021-07-20 01:25:28,794 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-07-20 01:25:28,796 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:29,716 [15] [WARN ] [GameServer] ：Client[127.0.0.1:62596]] Connected
+2021-07-20 01:26:29,899 [15] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-07-20 01:26:29,902 [5] [INFO ] [GameServer] ：UserLoginRequest: User:2  Pass:2
+2021-07-20 01:26:33,101 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-07-20 01:26:33,105 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:3:筱筱 Map:1
+2021-07-20 01:26:33,107 [5] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:2
+2021-07-20 01:26:39,426 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2021-07-20 01:26:39,441 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:MoveFwd Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:39,671 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-07-20 01:26:39,681 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:Idle Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:42,544 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:36
+2021-07-20 01:26:42,547 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:MoveFwd Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:42,779 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-07-20 01:26:42,788 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:Idle Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:43,072 [16] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-07-20 01:26:43,086 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:43,425 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:34
+2021-07-20 01:26:43,431 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:43,726 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-07-20 01:26:43,752 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:44,032 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-07-20 01:26:44,045 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:44,405 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-07-20 01:26:44,417 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:45,063 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-07-20 01:26:45,083 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:MoveFwd Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:45,485 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:31
+2021-07-20 01:26:45,511 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:45,941 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:33
+2021-07-20 01:26:45,947 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:Idle Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:47,252 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:47,259 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:47,511 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:47,518 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:47,754 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:47,758 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:48,795 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:47
+2021-07-20 01:26:48,799 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:MoveFwd Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:49,019 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-07-20 01:26:49,027 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:49,389 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-07-20 01:26:49,400 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:49,687 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-07-20 01:26:49,696 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:50,073 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:50,093 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:50,405 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:50,456 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:50,700 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-07-20 01:26:50,705 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:Idle Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:50,991 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:50,996 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:51,277 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:51,280 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:51,609 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:51,616 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:51,912 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:51,915 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:52,205 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:52,208 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:52,561 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:52,564 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:52,862 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:52,867 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:53,166 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:53,192 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:53,469 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:53,483 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:53,792 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:53,797 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:54,124 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:54,184 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:54,497 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:54,500 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:54,830 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:54,841 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:55,090 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-07-20 01:26:55,099 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:55,344 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-07-20 01:26:55,348 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:55,611 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-07-20 01:26:55,629 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:55,949 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-07-20 01:26:55,976 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:56,299 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:56,305 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:56,876 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:56,883 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:57,390 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:57,402 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:57,782 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:57,790 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:58,256 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:58,264 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:58,916 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:58,921 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:59,343 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:59,349 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:26:59,796 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:26:59,992 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:00,169 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-07-20 01:27:00,191 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:00,569 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-07-20 01:27:00,675 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:01,193 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:45
+2021-07-20 01:27:01,201 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:01,907 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:01,915 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:02,436 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:02,444 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:02,927 [17] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-07-20 01:27:02,972 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:MoveFwd Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:03,324 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:03,383 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:03,761 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:03,766 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:04,079 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:04,084 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:04,442 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:04,458 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:04,726 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:04,732 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:05,238 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-07-20 01:27:05,243 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:Idle Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:05,709 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-07-20 01:27:05,712 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:MoveFwd Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:06,136 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:06,142 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:06,719 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:06,725 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:07,186 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:07,190 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:07,765 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:07,853 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:08,409 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:44
+2021-07-20 01:27:08,455 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:Idle Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:08,730 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:08,736 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:09,467 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:09,470 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:09,709 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:09,721 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:09,976 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:09,981 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:10,203 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:10,208 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:10,410 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:10,424 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:10,585 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:10,600 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:10,780 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:10,803 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:11,019 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:42
+2021-07-20 01:27:11,081 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:11,397 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:11,418 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:11,663 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:11,673 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:11,961 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:11,966 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:12,145 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:12,155 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:12,321 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:12,333 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:12,576 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:12,595 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:12,858 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:12,870 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:13,081 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:13,099 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:13,355 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:13,361 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:13,679 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:13,706 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:13,982 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:13,990 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:14,331 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:14,335 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:14,700 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:14,739 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:15,238 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:15,330 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:15,535 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:15,560 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:15,772 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:15,780 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:15,982 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:16,015 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:16,216 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:16,221 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:16,386 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:16,391 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:16,615 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-07-20 01:27:16,625 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:松岗大神 Map:1
+2021-07-20 01:27:16,645 [5] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2021-07-20 01:27:16,954 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:16,969 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:17,186 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:17,192 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:17,330 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:17,342 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:17,476 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:17,570 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:17,617 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:17,652 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:17,758 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:17,780 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:17,900 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:17,909 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:18,045 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:18,054 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:18,181 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:18,207 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:18,324 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:18,364 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:18,461 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:18,469 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:18,590 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:18,615 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:18,726 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:18,748 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:18,873 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:18,887 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:19,009 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:19,015 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:19,151 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:19,165 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:19,319 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:19,332 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:19,454 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:19,476 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:19,598 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:19,622 [8] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:19,738 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:19,749 [9] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:19,882 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:19,896 [10] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:20,025 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:20,032 [11] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:20,177 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:20,184 [12] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:20,309 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:50
+2021-07-20 01:27:20,324 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:1:松岗大神 Entity.Id:1 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:27,449 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-07-20 01:27:27,456 [6] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:松岗大神 Map:1
+2021-07-20 01:27:27,462 [6] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:3
+2021-07-20 01:27:37,831 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2021-07-20 01:27:37,844 [5] [INFO ] [GameServer] ：OnMapEntitySync:characterID:3:松岗大神 Entity.Id:3 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:38,408 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2021-07-20 01:27:38,411 [6] [INFO ] [GameServer] ：OnMapEntitySync:characterID:3:松岗大神 Entity.Id:3 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:27:38,886 [18] [WARN ] [GameServer] ：Client[] DataReceived Len:39
+2021-07-20 01:27:38,893 [7] [INFO ] [GameServer] ：OnMapEntitySync:characterID:3:松岗大神 Entity.Id:3 Evt:None Entity:SkillBridge.Message.NEntity
+2021-07-20 01:31:47,145 [1] [INFO ] [GameServer] ：Game Server Init
+2021-07-20 01:31:48,001 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-07-20 01:31:48,699 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-07-20 01:31:48,706 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-07-20 01:31:48,708 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-07-20 01:31:48,709 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-07-20 01:31:48,714 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-07-20 01:31:48,839 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:31:48,841 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:31:48,841 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:31:48,841 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:31:48,841 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:31:48,842 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:31:48,844 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:31:48,849 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:31:48,858 [1] [WARN ] [GameServer] ：NetService Started
+2021-07-20 01:32:10,840 [3] [WARN ] [GameServer] ：Client[127.0.0.1:55952]] Connected
+2021-07-20 01:32:11,058 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-07-20 01:32:11,668 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-07-20 01:32:56,650 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-07-20 01:32:56,659 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:松岗大神 Map:1
+2021-07-20 01:32:56,684 [5] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-07-20 01:33:11,906 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-07-20 01:33:11,912 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:1:松岗大神 Map:1
+2021-07-20 01:33:11,915 [5] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:1
+2021-07-20 01:33:14,840 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-07-20 01:33:14,843 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:1:沙织姐姐 Map:1
+2021-07-20 01:33:14,845 [5] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:2
+2021-07-20 01:33:20,869 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-07-20 01:33:20,872 [6] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:2:沙织姐姐 Map:1
+2021-07-20 01:33:20,874 [6] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:2
+2021-07-20 01:33:22,682 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-07-20 01:33:22,686 [7] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:松岗大神 Map:1
+2021-07-20 01:33:22,689 [7] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:3
+2021-07-20 01:33:54,337 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-07-20 01:33:54,339 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:3:松岗大神 Map:1
+2021-07-20 01:33:54,342 [5] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:3
+2021-07-20 01:33:57,217 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-07-20 01:33:57,220 [5] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:松岗大神 Map:1
+2021-07-20 01:33:57,223 [5] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:4
+2021-07-20 01:34:12,564 [13] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-07-20 01:34:12,566 [5] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:4:松岗大神 Map:1
+2021-07-20 01:34:12,568 [5] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:4
+2021-07-20 01:34:15,697 [15] [WARN ] [GameServer] ：Client[] Disconnected
+2021-07-20 01:59:49,381 [1] [INFO ] [GameServer] ：Game Server Init
+2021-07-20 01:59:50,312 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-07-20 01:59:50,734 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-07-20 01:59:50,751 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-07-20 01:59:50,751 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-07-20 01:59:50,752 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-07-20 01:59:50,753 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-07-20 01:59:50,773 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:59:50,774 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:59:50,774 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:59:50,774 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:59:50,774 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:59:50,775 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:59:50,776 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:59:50,776 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 01:59:50,886 [1] [WARN ] [GameServer] ：NetService Started
+2021-07-20 02:00:16,702 [3] [WARN ] [GameServer] ：Client[127.0.0.1:62833]] Connected
+2021-07-20 02:00:16,873 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-07-20 02:00:17,433 [5] [INFO ] [GameServer] ：UserLoginRequest: User:1  Pass:1
+2021-07-20 02:00:30,615 [3] [WARN ] [GameServer] ：Client[127.0.0.1:62844]] Connected
+2021-07-20 02:00:30,875 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:14
+2021-07-20 02:00:30,879 [10] [INFO ] [GameServer] ：UserLoginRequest: User:2  Pass:2
+2021-07-20 02:00:32,941 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:10
+2021-07-20 02:00:32,953 [6] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:2:松岗大神 Map:1
+2021-07-20 02:00:32,978 [6] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:1
+2021-07-20 02:00:34,991 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-07-20 02:00:34,995 [8] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:3:筱筱 Map:1
+2021-07-20 02:00:34,998 [8] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:2
+2021-07-20 02:01:07,952 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-07-20 02:01:08,064 [11] [INFO ] [GameServer] ：UserGameLeaveRequest: characterID:2:筱筱 Map:1
+2021-07-20 02:01:08,219 [11] [INFO ] [GameServer] ：CharacterLeave:Map:1 charcterId:2
+2021-07-20 02:01:11,015 [3] [WARN ] [GameServer] ：Client[] DataReceived Len:8
+2021-07-20 02:01:11,056 [12] [INFO ] [GameServer] ：UserGameEnterRequest: CharacterID:3:筱筱 Map:1
+2021-07-20 02:01:11,125 [12] [INFO ] [GameServer] ：CharacterEnter:Map:1 characterId:3
+2021-07-20 02:01:25,983 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2021-07-20 02:01:34,593 [13] [WARN ] [GameServer] ：Client[] Disconnected
+2021-07-20 02:01:45,969 [1] [INFO ] [GameServer] ：Game Server Init
+2021-07-20 02:01:46,764 [1] [INFO ] [GameServer] ：DataManager > DataManager()
+2021-07-20 02:01:47,323 [1] [INFO ] [GameServer] ：MapManager.Init > Map:1布林镇
+2021-07-20 02:01:47,329 [1] [INFO ] [GameServer] ：MapManager.Init > Map:2落日森林
+2021-07-20 02:01:47,330 [1] [INFO ] [GameServer] ：MapManager.Init > Map:3落日森林
+2021-07-20 02:01:47,331 [1] [INFO ] [GameServer] ：MapManager.Init > Map:4落日空间
+2021-07-20 02:01:47,333 [1] [WARN ] [GameServer] ：Starting Listener...
+2021-07-20 02:01:47,613 [5] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 02:01:47,614 [9] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 02:01:47,614 [8] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 02:01:47,615 [7] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 02:01:47,616 [11] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 02:01:47,620 [6] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 02:01:47,622 [12] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 02:01:47,625 [10] [WARN ] [GameServer] ：MessageDistribute thread start
+2021-07-20 02:01:47,710 [1] [WARN ] [GameServer] ：NetService Started
